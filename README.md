@@ -1,4 +1,6 @@
-# Seminario del Instituto de Recusos Biológicos del INTA
+# Charla para el primer meetup de R-Ladies Jujuy, Argentina
+
+## 21 de diciembre 17hs UTC-3
 
 Produciendo mi próximo artículo científico con R:  Compendios de Investigación, Reproducibilidad e Interactividad en las publicaciones académicas
 
