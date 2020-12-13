@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Produciendo mi próximo artículo científico con R</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dra. Florencia D’Andrea" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <script src="libs/js-cookie/js.cookie.js"></script>
+    <script src="libs/peerjs/peerjs.min.js"></script>
+    <script src="libs/tiny.toast/toast.min.js"></script>
+    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="libs/shareon/shareon.min.js"></script>
+    <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
+    <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra_fit-screen/fit-screen.js"></script>
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/countdown/countdown.css" rel="stylesheet" />
+    <script src="libs/countdown/countdown.js"></script>
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/dagre/dagre.min.js"></script>
+    <script src="libs/lodash/lodash.js"></script>
+    <script src="libs/nomnoml/nomnoml.js"></script>
+    <script src="libs/nomnoml-binding/nomnoml.js"></script>
+    <link href="libs/academicons/css/academicons.min.css" rel="stylesheet" />
+    <script src="libs/fitvids/fitvids.min.js"></script>
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+
+
+
+
+class: inverse, middle, center
+
+<div class="countdown" id="timer_5fc905ed" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+
+
+### Empezamos en 5 minutos
+Tenes tiempo para irte a buscar el ☕ o preparar el agua para el 🧉
+
+---
+
+class: inverse, center, middle
+
+### Seminario del Instituto de Recursos Biológicos del INTA
+
+¡Los estabamos esperando!
+
+---
+
+background-image: url(imagenes/3.png)
+background-size: cover
+class: bottom
+
+### Produciendo mi próximo artículo científico con R: Compendios de Investigación, Reproducibilidad e Interactividad en las publicaciones académicas
+
+
+
+ .large[#### Dra. Florencia D'Andrea | Instituto de Recursos Biológicos | 2 de Diciembre de 2020 
+]
+
+ 
+&lt;img src="imagenes/inta_conicet.jpg" width="100" /&gt;
+
+
+---
+
+class: center, middle, inverse
+
+
+### Licencia
+
+&lt;a rel="license" href="http://creativecommons.org/licenses/by/4.0/"&gt;&lt;img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;Este obra está bajo una &lt;a rel="license" href="http://creativecommons.org/licenses/by/4.0/"&gt;licencia de Creative Commons Reconocimiento 4.0 Internacional&lt;/a&gt;
+
+---
+
+class: inverse, middle, center
+
+## ⚠
+### ¡Atención! 
+#### El foco de esta charla esta en el software y los datos 
+
+---
+
+&lt;img src="imagenes/ResearchCycle.jpg" width="700" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Imagen: The Turing Way Community, &amp; Scriberia (2020). ](http://doi.org/10.5281/zenodo.3695300)]
+---
+
+## Desafío
+#### Código y datos disponibles
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+#### **Ciencia abierta** práctica de dejar "los resultados primarios de investigaciones financiados con fondos públicos, los artículos y los datos sean accesibles al público en formato digital sin restricciones o con una restricción mínima".]
+
+
+.footnote[[The Turing Way Community (2019)](https://the-turing-way.netlify.app/reproducible-research/open/open-resources.html) / 
+[OECD (2015)](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf)]
+
+---
+
+## Principios FAIR
+#### Buenas prácticas para la gestión y administración de datos científicos
+
+.pull-left[
+
+&lt;img src="imagenes/FAIRPrinciples.jpg" width="700" style="display: block; margin: auto;" /&gt;
+]
+.pull-rigth[
+
+
+**"Acceso tan abierto como sea posible, tan cerrado como sea necesario" (abierto por defecto)**
+
+Se requiere claridad y transparencia en torno a las condiciones que rigen el acceso y la reutilización.
+
+]
+
+#### **F**indable | **A**ccesible | **I**nteroperable | **R**eusable
+
+.footnote[
+[Mons *et al.* (2017)](https://content.iospress.com/articles/information-services-and-use/isu824) / [Imagen: The Turing Way Community, &amp; Scriberia. (2020). ](http://doi.org/10.5281/zenodo.3695300)
+]
+
+---
+
+&lt;img src="imagenes/ReproducibleJourney.jpg" width="700" style="display: block; margin: auto;" /&gt;
+
+
+.footnote[[Imagen: The Turing Way Community, &amp; Scriberia (2020)]( http://doi.org/10.5281/zenodo.3695300)]
+
+---
+
+## Datos
+ Son hechos u observaciones que proporcionan **evidencia**. 
+ 
+--
+
+## Software 
+Es el resultado de un proceso creativo que **proporciona una herramienta** para hacer algo, por ejemplo, con datos.
+
+&gt; El software es ejecutable.
+
+&gt; El software a menudo se desarrolla usando otro software.
+
+--
+
+.footnote[[Lamprecht *et al.* (2020)](https://content.iospress.com/articles/data-science/ds190026)]
+
+---
+
+# **{**Definición**}**
+### Software para investigación
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+#### Es que se utiliza para generar, procesar o analizar los resultados para una **publicación** (ya sea en una revista, resumen para congreso, monografía, libro o tesis)
+#### Puede comprender desde unas **pocas líneas de código** (...), hasta un paquete de software desarrollado profesionalmente.]
+
+.footnote[[Hettrick *et al.* (2014)](https://doi.org/10.5281/zenodo.608046)]
+
+---
+
+## Los datos y el software se citan
+
+### Autores de artículos
+
+* Incluir citas a datos y software en el manuscrito
+
+* Publica tu propios datos y software y citalos también
+
+&lt;img src="imagenes/data_available.png" width="800" style="display: block; margin: auto;" /&gt;
+.footnote[Más formas de citar datos en [The Turing Way Community (2019) - Credit for reproducible research](https://the-turing-way.netlify.app/reproducible-research/credit.html?highlight=cite%20data)]
+---
+
+## Los datos y el software se citan
+### Para quienes generan datos y software
+
+* Depositalo/s en un repositorio "estable" (ej. Zenodo, Figshare, etc)
+
+* Obtené una URLs permanente al repositorio como un `Digital Object Identifier (DOI)`
+
+* Incluí un ejemplo de cómo citarlo en el README o documentación
+
+&lt;img src="imagenes/pwc.png" width="300" style="display: block; margin: auto;" /&gt;
+
+.footnote[[The Turing Way Community (2019)](https://the-turing-way.netlify.app/reproducible-research/credit.html?highlight=cite%20data) / [Zenodo - DOI versioning](https://help.zenodo.org/#versioning)]
+
+---
+
+&lt;img src="imagenes/DOI.jpg" width="800" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Imagen: The Turing Way Community, &amp; Scriberia (2020)]( http://doi.org/10.5281/zenodo.3695300)]
+---
+
+&lt;img src="imagenes/zenodo_versioning.png" width="900" style="display: block; margin: auto;" /&gt;
+.footnote[[Zenodo Blog - Zenodo now supports DOI versioning!](https://blog.zenodo.org/2017/05/30/doi-versioning-launched/)]
+
+---
+
+class: middle, inverse
+
+### 👉 **Reproducibilidad** 
+
+### Compendio de investigación
+
+### Interactividad
+
+
+---
+class: center, middle
+
+
+<div id="htmlwidget-e867e213ced81f3eea31" style="width:720px;height:504px;" class="nomnoml html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e867e213ced81f3eea31">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n# direction: down | center \n#.resaltado: fill=#8f8 title=bold\n\n[Reproducibilidad] -> [Empírica]\n[Reproducibilidad] -> [<resaltado> Computacional]\n[Reproducibilidad] -> [Estadística]\n","svg":false},"evals":[],"jsHooks":[]}</script>
+
+.footnote[[Stodden (2014)](https://www.edge.org/response-detail/25340)]
+
+---
+
+class: center, middle, inverse
+
+### En mi computadora pude reproducir mis resultados ...
+### ¿puedo considerar que mi trabajo es reproducible? 
+
+---
+
+## ¿Qué pasa de acá a 10 años?
+
+&lt;img src="imagenes/nature1.png" width="500" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Artículo de Nature](https://www.nature.com/articles/d41586-020-02462-7)]
+
+---
+
+class: center, middle, inverse
+
+## ¿Es suficiente compartir el código y los datos para que otros puedan reproducir mis análisis?
+
+---
+
+## Ejemplo
+
+
+[`tidyr v1.0.0`](https://github.com/tidyverse/tidyr/releases) breaking changes 
+
+* Aparecen las funciones `pivot_*()` que reemplazan a `gather()` y `spread()`
+
+&lt;img src="imagenes/tidyr.png" width="200" style="display: block; margin: auto;" /&gt;
+
+.footnote[Logo de `tidyr` por [RStudio](https://rstudio.com/)]
+
+---
+class: middle, center
+## Reproducibilidad computacional
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+
+#### Cuando se proporciona información detallada sobre software, hardware y detalles de implementación.
+
+.tr[
+ Stodden (2014)
+]]
+
+
+
+---
+## Entorno computacional 
+
+Características de una computadora que pueden afectar el comportamiento del trabajo realizado en ella, como:
+
+* su **sistema operativo**
+
+* qué **software** tiene instalado 
+
+* las **versiones de paquetes** de software están instaladas
+
+.footnote[[The Turing Way Community (2019)](https://the-turing-way.netlify.app/)]
+
+---
+class: middle, center
+
+&lt;img src="imagenes/ErrorManagement.jpg" width="500" style="display: block; margin: auto;" /&gt;
+[Imagen: The Turing Way Community, &amp; Scriberia. (2020)]( http://doi.org/10.5281/zenodo.3695300)
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+
+#### "El software (...) con frecuencia se desarrolla para permitir el uso de otro software, lo que genera dependencias complejas, y **estos paquetes de software dependientes cambian a su vez con frecuencia**" 
+
+.tr[[Katz *et al.* (2016)](https://doi.org/10.7287/peerj.preprints.2630v1)
+]
+]
+
+---
+
+## Hay varias formas de capturar entornos computacionales
+
+
+* Sistemas de administración de paquetes (📦 `renv`)
+
+* Binder
+
+* Máquinas virtuales 
+
+* Contenedores (ejemplo: [Docker](https://colinfay.me/docker-r-reproducibility/) 🐳 )
+
+
+.footnote[[The Turing Way Community (2019)](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)]
+---
+
+# Paquete `renv`
+
+
+-  🏁 `renv::init()` Se crea una librería asociada al proyecto dentro de la carpeta `renv`.
+
+--
+
+-  📸 `renv::snapshot()` Genera el archivo `renv.lock` con información de las dependencias al momento de hacer la instantánea (snapshot).
+
+--
+
+-  🌱 `renv::restore()` reproduce el entorno!
+--
+
+
+&lt;img src="imagenes/renv.png" width="400" style="display: block; margin: auto;" /&gt;
+
+.footnote[[* Lee más sobre `renv` aquí](https://environments.rstudio.com/snapshot.html#pre-requisite-steps)]
+
+
+---
+
+## Binder
+
+[Post](https://florencia.netlify.app/es-es/2020/08/compartiendo-entornos-interactivos-y-reproducibles-en-r-con-binder.es-es/) sobre Binder en R-Ladies BA (incluye charla)
+
+&lt;iframe src="https://flor14.github.io/r_de_reproducibilidad/r_de_reproducibilidad.html#1" width="100%" height="400px"&gt;&lt;/iframe&gt;
+
+
+---
+
+## Experiencia previa: publicación de código
+
+&lt;img src="imagenes/joss.png" width="500" /&gt;
+.footnote[D’Andrea (2019). Journal of Open Source Software, 4(37), 785, https://doi.org/10.21105/joss.00785]
+
+---
+
+class: center, inverse, middle
+# Ciencia **abierta** y **reproducible**
+
+---
+
+### Ventajas
+
+* Fomenta las colaboraciones 🤝 (**GitHub/GitLab**)
+
+* Permite seguir la historia de tu proyecto 📜 (Control de versiones **git**)
+
+* Mejoras el flujo de trabajo ⚙️ (ej: `here`, trabajo con proyectos)
+
+* Programación literaria ✍️ (`RMarkdown`)
+
+---
+
+## Ventajas
+
+* Aumenta el impacto de las publicaciones 💥
+
+* Algunas revistas lo solicitan 📰
+
+
+---
+
+## Desventajas 🥺
+
+* Lleva **esfuerzo** preparar el código y las bases de datos para publicar
+
+* Faltan incentivos
+
+* Se crea una ventaja para los "competidores"
+
+---
+
+class: middle, center
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+####"El hecho de que un análisis sea reproducible **no garantiza su calidad**, que este sea correcto o la validez de los resultados publicados" 
+
+.tr[Peng (2011)
+]
+
+]
+
+
+---
+
+## ¿Un cambio cultural?
+
+.pull-up[
+&lt;img src="imagenes/codecheck.png" width="400" style="display: block; margin: auto;" /&gt;
+.footnote[[Codecheck](https://www.nature.com/articles/d41586-020-02462-7)]
+ ]
+ 
+.pull-down[
+&lt;img src="imagenes/codecheck2.png" width="700" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+## ¿Un cambio cultural?
+
+&lt;img src="imagenes/tw_rh.png" width="600" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Twitter ReproHack](https://www.nature.com/articles/d41586-020-02462-7)]
+
+---
+
+## Reproducibilidad 
+
+&lt;img src="imagenes/CultureShift.jpg" width="4359" style="display: block; margin: auto 0 auto auto;" /&gt;
+
+.footnote[[Imagen: The Turing Way Community, &amp; Scriberia. (2020)]( http://doi.org/10.5281/zenodo.3695300)]]
+
+
+---
+
+
+class: inverse, middle, center
+# 🙌👩‍💻
+# ¡Manos a la obra!
+
+---
+class: inverse, middle, center
+## ¿En qué estoy trabajando?
+
+---
+
+## Postdoc 
+
+&gt; #### Desarrollo de herramientas informáticas para evaluar el riesgo de las aplicaciones de plaguicidas para los ecosistemas acuáticos
+
+
+
+---
+class: middle, center
+
+&gt; Mi trabajo implica usar **modelos** que simulan el destino ambiental de los **plaguicidas** luego de su aplicación. 
+
+&gt; En particular, el modelo que uso permite estimar concentraciones de plaguicidas en **cuerpos de agua superficiales**
+
+&lt;img src="imagenes/lagunas.png" width="859" style="display: block; margin: auto;" /&gt;
+.footnote[Imagenes tomadas por [Julie Brodeur](https://twitter.com/julbrodeur)]
+---
+
+## Evaluación de Riesgo Ecotoxicológico (ERE)
+
+* Riesgo de aplicaciones de **plaguicidas** sobre la **biota acuática**
+
+* El riesgo se estima de la comparación ente ambas concentraciones
+
+<div id="htmlwidget-65ab733fcf46e3f3cebd" style="width:720px;height:504px;" class="nomnoml html-widget"></div>
+<script type="application/json" data-for="htmlwidget-65ab733fcf46e3f3cebd">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n# direction: down | center \n#.resaltado: fill=#8f8 title=bold\n\n[ERE] -> [<resaltado>caracterización de exposición | concentraciones de plaguicida]\n[ERE] -> [caracterización de efecto | concentraciones relevantes toxicológicamente]\n","svg":false},"evals":[],"jsHooks":[]}</script>
+
+
+
+---
+## Mi próxima publicación  
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+
+Statistically-based soil-climate scenarios for aquatic pesticide fate modelling and exposure assessment in the Pampa Region of Argentina.
+
+]
+
+---
+
+# Bases de datos
+
+Empleo distintas bases de datos:
+
+* Suelo
+* Fenología
+* Hidrología
+* Clima
+* Propiedades de plaguicidas
+
+<div id="htmlwidget-dbe993631fc71c983b88" style="width:720px;height:504px;" class="nomnoml html-widget"></div>
+<script type="application/json" data-for="htmlwidget-dbe993631fc71c983b88">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n# direction: down | center \n#.rlang: fill=#8f8 visual=ellipse title=bold\n\n[base de datos 1] \n[base de datos 2] \n[base de datos n] ","svg":false},"evals":[],"jsHooks":[]}</script>
+
+
+
+---
+
+# Modelo
+
+**Pesticide Water Calculator v1.52** (USEPA)
+ 
+Automatización de corridas: 
+117000 simulaciones =  30 años `*`  50 plaguicidas `*` 78 suelos - clima 
+
+
+<div id="htmlwidget-5499cef2151c43cbd027" style="width:720px;height:504px;" class="nomnoml html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5499cef2151c43cbd027">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n# direction: down | center \n#.high: fill=#8f8 title=bold\n\n[base de datos 1] --> [<high>Modelo PWC]\n[base de datos 2] --> [<high>Modelo PWC]\n[base de datos n] --> [<high>Modelo PWC]","svg":false},"evals":[],"jsHooks":[]}</script>
+
+---
+
+# Resultados
+
+¡Una nueva base de datos!
+
+<div id="htmlwidget-16eb4d98ae9cb47d15ec" style="width:720px;height:504px;" class="nomnoml html-widget"></div>
+<script type="application/json" data-for="htmlwidget-16eb4d98ae9cb47d15ec">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n# direction: down | center \n#.high: fill=#8f8 title=bold\n\n[base de datos 1] --> [Modelo PWC]\n[base de datos 2] --> [Modelo PWC]\n[base de datos *n*] --> [Modelo PWC]\n[Modelo PWC] -> [<high>Resultados]","svg":false},"evals":[],"jsHooks":[]}</script>
+
+---
+
+# Las Figuras
+
+Proceso los resultados con R. 
+
+<div id="htmlwidget-cceb6531a58687d73e87" style="width:720px;height:504px;" class="nomnoml html-widget"></div>
+<script type="application/json" data-for="htmlwidget-cceb6531a58687d73e87">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n# direction: down | center \n#.rlang: fill=#8f8 visual=ellipse title=bold\n#.high: fill=#8f8 title=bold\n\n[base de datos clima] --> [Modelo PWC]\n[base de datos suelo] --> [Modelo PWC]\n[base de datos moléculas] --> [Modelo PWC]\n[Modelo PWC] -> [Resultados]\n[Resultados] - [<rlang> R]\n[<rlang> R] -> [<high>Gráficos]\n[<rlang> R] -> [<high>Tablas]\n[<rlang> R] -> [<high>Mapas]\n","svg":false},"evals":[],"jsHooks":[]}</script>
+
+
+
+---
+
+class: inverse, middle, center
+
+## ¿Y ahora? Publicar
+
+---
+
+class: middle, inverse
+
+### Reproducibilidad
+
+### 👉 **Compendio de investigación**
+
+### Interactividad
+
+---
+
+## Compendio de investigación
+
+.pull-left[
+
+* **Organizar los archivos** de acuerdo a una convención prevalente.
+
+* Proveer **separación entre los datos, métodos y resultados** expresando sin ambiguedades la relación entre las tres.
+
+* Especificar el entorno (+ **reproducibilidad**).
+
+
+]
+
+.pull-right[
+&lt;img src="imagenes/ResearchCompendium.jpg" width="500" /&gt;
+]
+
+.footnote[[Marwick *et al.* (2018)](https://doi.org/10.1080/00031305.2017.1375986)]
+---
+
+## Compendio de investigación
+
+.pull-left[
+
+* **Convención**: Otra persona debería poder interpretar los nombres de los archivos y directorios. 
+
+* **Marwick *et al.* (2018)** proponen utilizar la estructura de un paquete de R
+
+* **El compendio puede tener distinta complejidad**
+]
+
+.pull-right[
+&lt;img src="imagenes/small_rc.png" width="400" /&gt;
+]
+.footnote[[Marwick *et al.* (2018)](https://doi.org/10.1080/00031305.2017.1375986)]
+---
+
+## ¿Que agrego cuando agrego un compendio de investigacion?
+
+<div id="htmlwidget-c009a1372d44943cdce6" style="width:720px;height:504px;" class="nomnoml html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c009a1372d44943cdce6">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n# direction: down | center \n#.rlang: fill=#8f8 visual=ellipse title=bold\n#.high: fill=#8f8 title=bold\n\n[base de datos clima] --> [Modelo PWC]\n[base de datos suelo] --> [Modelo PWC]\n[base de datos moléculas] --> [Modelo PWC]\n[Modelo PWC] -> [Resultados]\n[Resultados] - [<rlang> R]\n[<rlang> R] -> [Gráficos]\n[<rlang> R] -> [Tablas]\n[<rlang> R] -> [Mapas]\n[<rlang> R] -> [<high>Compendio de investigación]\n","svg":false},"evals":[],"jsHooks":[]}</script>
+
+---
+
+## Paquete `rrtools` 
+#### Genera compendios de investigación en R
+
+&lt;img src="imagenes/rc-logo.png" width="100" /&gt;
+[Paquete (no esta en CRAN)](https://github.com/benmarwick/rrtools)
+
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+El objetivo de `rrtools` es proporcionar instrucciones, plantillas y funciones para hacer un compendio básico adecuado para escribir investigaciones reproducibles con R.]
+
+.footnote[[Marwick *et al.* (2018)](https://doi.org/10.1080/00031305.2017.1375986)]
+---
+
+[Tutorial de Anna Krystalli, mejor recurso para aprender](https://annakrystalli.me/rrresearch/10_compendium.html)
+
+✔️ Control de versiones
+
+➕ Estructura de paquete de R
+
+➕ Licencia
+
+➕ Crear un README
+
+➕ Agregar un DOI
+
+➕ Agregar cómo se cita
+
+✔️ Agregar una estructura de archivos `analysis/` y `data/`
+
+✔️ Generar el manuscrito con código incluido en `RMarkdown` 
+
+✔️️ Usar la plantilla del journal con el paquete `rticles`
+
+✔️️ Manejar las dependencias 
+
+
+---
+
+### ¿Cómo compartir un Compendio de investigación?
+
+.panelset[
+
+.panel[.panel-name[Licencia]
+
+* **Incluir un archivo con la licencia** indica a los demás cómo puede ser reutilizado tu trabajo.
+
+&lt;img src="imagenes/usethis.png" width="50" /&gt;
+
+El paquete `usethis` incluye funciones que agregan la licencia que elijas a tu proyecto:
+
+
+```r
+library(usethis)
+usethis::use_mit_license("Florencia D Andrea")
+```
+]
+
+.panel[.panel-name[Control de versiones]
+
+Sistemas de control de versiones como `Git` &lt;ion-icon name="logo-octocat"&gt;&lt;/ion-icon&gt; es la mejor manera de preservar el historial de cambios en el compendio de investigación.
+
+* **Facilita la colaboración** privada entre colegas
+sobre el proyecto 
+
+* **Facilita la distribución y mantenimiento** del compendio en el futuro
+
+]
+.panel[.panel-name[Persistencia]
+
+Asignarle una URLs permanente al repositorio como un `Digital Object Identifier (DOI)` <i class="ai  ai-doi "></i>  
+
+* osf.io <i class="ai  ai-osf "></i>
+ 
+* figshare.com  <i class="ai  ai-figshare "></i>
+
+* zenodo.org &lt;i class="ai ai-zenodo ai-3x"&gt;&lt;/i&gt;
+]
+
+]
+
+.footnote[[Marwick *et al.* (2018)](https://doi.org/10.1080/00031305.2017.1375986)]
+
+
+---
+
+class: middle, inverse
+
+### Compendio de investigación
+
+### Reproducibilidad computacional
+
+### 👉 **Interactividad**
+
+---
+
+## Comunicación de mis resultados
+
+* Aplicación web (**shiny**)
+
+* Gráficos interactivos (**plotly**)
+
+* Papers interactivos y reproducibles (**artículo ejecutable**)
+
+---
+
+
+## Shiny
+
+&lt;img src="imagenes/shiny.jpg" width="100" /&gt;
+
+[Ejemplo de shiny app parte de una publicación - Bernabeu et al (2017)](https://mybinder.org/v2/gh/pablobernabeu/Modality-switch-effects-emerge-early-and-increase-throughout-conceptual-processing/0a5542658914a6ed01cf8e96252c48bb5bcf8f18?urlpath=shiny/Shiny-app/)
+
+Bernabeu, P (2017). Modality switch effects emerge early and increase throughout conceptual processing: Evidence from ERPs. Cognitive Science Society.
+
+#### Ejemplos de Shiny apps publicadas en repositorios
+EFSA. (2018, June 26). Shiny R tool for the automation of systematic reviews (Version v3). Zenodo. http://doi.org/10.5281/zenodo.1299654
+
+---
+
+## Gráficos interactivos
+
+&lt;img src="imagenes/plotly.png" width="100" /&gt;
+
+&gt; "Los artículos científicos son cada vez más difíciles de leer; Si se usan adecuadamente, las figuras interactivas tienen el potencial de ayudar a contrarrestar esta tendencia. Esto es especialmente cierto para comunicar los hallazgos a los responsables políticos y al público en general en general" - [F1000 Research blog](https://blog.f1000.com/2017/07/19/so-long-static-we-now-support-interactive-ploty-figures-in-our-articles/)
+
+
+## Artículo reproducible
+
+[ELife Sciences / Artículo ejecutable](https://elifesciences.org/articles/30274/executable)
+
+[stenci.la](https://stenci.la/)
+
+---
+class: inverse, middle, center
+
+### Mostrar shiny app de mi próximo artículo
+
+---
+class: inverse, middle, center
+
+### Algunos lugares donde encontrar ayuda y buscar información
+
+---
+
+# ROpenSci
+
+
+&lt;img src="imagenes/ropensci.png" width="200" style="display: block; margin: auto;" /&gt;
+
+
+[Web](https://ropensci.org/)
+
+[Twitter de ROpenSci](https://twitter.com/rOpenSci)
+
+
+---
+
+# The Turing Way
+
+
+&lt;img src="imagenes/LogoDetailWithText.jpg" width="200" style="display: block; margin: auto;" /&gt;
+
+Libro de [The Turing Way](https://the-turing-way.netlify.app/welcome)
+
+[Twitter de The Turing Way](https://twitter.com/turingway)
+
+
+
+---
+
+# ReproHack
+
+
+&lt;img src="imagenes/reprohack.png" width="200" style="display: block; margin: auto;" /&gt;
+
+
+[Twitter de ReproHack](https://twitter.com/ReproHack)
+
+---
+
+# ReproHack en [LatinR 2020](https://latin-r.com/blog/reprohack)
+
+[Lista de reproducción con 6 charlas sobre reproducibilidad en español](https://www.youtube.com/playlist?list=PL9-E3cL2KgKliN3DFBWfUAUNXco_NOAMQ)
+
+<div class="shareagain" style="min-width:300px;margin:1em auto;">
+<iframe src="https://flor14.github.io/latinr-reprohack/index.html#1" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+
+---
+
+&lt;img src="imagenes/toronto.jpg" width="500" height="600" style="display: block; margin: auto;" /&gt;
+
+
+---
+background-image: url(imagenes/3.png)
+background-size: cover
+
+# Referencias
+
+
+* Katz DS, Niemeyer KE, Smith AM, Anderson WL, Boettiger C, Hinsen K, Hooft R, Hucka M, Lee A, Löffler F, Pollard T, Rios F. 2016. [Software vs. data in the context of citation. PeerJ Preprints 4]( https://doi.org/10.7287/peerj.preprints.2630v1)
+
+* Lamprecht, A. L., Garcia, L., Kuzak, M., Martinez, C., Arcila, R., Martin Del Pico, E., ... &amp; McQuilton, P. (2020). Towards FAIR principles for research software. Data Science, 3(1), 37-59.
+
+* [Lista de recursos sobre Research compendium](https://research-compendium.science/)
+
+* [Library Carpentry: FAIR Data and Software](https://librarycarpentry.org/lc-fair-research/)
+
+* Marwick, B., Boettiger, C., &amp; Mullen, L. (2018). [Packaging data analytical work reproducibly using R (and friends). The American Statistician 72(1), 80-88.](https://doi.org/10.1080/00031305.2017.1375986)
+
+* [OECD (2015), “Making Open Science a Reality”](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf), OECD Science, Technology and Industry Policy Papers, No. 25,
+OECD Publishing, Paris. http://dx.doi.org/10.1787/5jrs2f963zs1-en
+
+---
+
+background-image: url(imagenes/3.png)
+background-size: cover
+
+# Referencias
+
+* The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). [The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986](https://the-turing-way.netlify.app/)
+
+* Peng RD (2011), [Reproducible Research in Computational Science. Science 334(6060): 1226–1227](doi:10.1126/science.1213847)
+
+* Stodden, V. (2014). [Online; accessed 27. May 2020]. URL: https://www.edge.org/response-detail/25340.
+
+* Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
+
+* [Webpage Principios FAIR](https://www.go-fair.org/fair-principles/)
+
+---
+
+background-image: url(imagenes/3.png)
+background-size: cover
+
+# Referencias
+#### Herramientas en R / Charlas
+
+* [Reproducible Environments - RStudio](https://environments.rstudio.com/)
+
+* [renv: Project Environments with R - RStudio blog](https://blog.rstudio.com/2019/11/06/renv-project-environments-for-r/)
+
+* [Putting the R into Reproducible Research - Anna Krystalli](https://annakrystalli.me/talks/r-in-repro-research.html#1)
+
+* [Improve your workflow for reproducible science - Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/improve-repro-workflow-reproducibilitea-2020/slides/improve-repro-workflow-reproducibilitea-2020.pdf) 
+
+#### Ilustraciones
+
+* The Turing Way Community, &amp; Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.3695300
+
+---
+
+background-image: url(imagenes/3.png)
+background-size: cover
+class: center, middle
+
+## ¡Muchas gracias por su atención!
+
+&lt;br&gt;&lt;br&gt;
+Dra. Florencia D'Andrea &lt;br&gt; **Investigadora postdoctoral** &lt;br&gt;
+<i class="fab  fa-github "></i> [@flor14]("http://github.com/flor14") &lt;br&gt;
+<i class="fab  fa-twitter "></i> [@cantoflor_87]("http://twitter.com/cantoflor_87")&lt;br&gt;
+<i class="fas  fa-link "></i> [florencia.netlify.app/es-es/]("https://florencia.netlify.app/es-es/")&lt;br&gt;
+
+ &lt;br&gt; &lt;br&gt;
+
+ Filminas disponibles [bit.ly/seminarioirb](https://flor14.github.io/seminario_irb_2020/presentacion.html#1) 
+
+---
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
