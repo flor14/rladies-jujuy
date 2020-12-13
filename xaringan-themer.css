@@ -43,19 +43,19 @@
 
   /* Colors */
   --text-color: #272822;
-  --header-color: #2C2788;
+  --header-color: #562457;
   --background-color: #ffffff;
-  --link-color: #171093;
-  --text-bold-color: #43418A;
+  --link-color: #a7a9ac;
+  --text-bold-color: #A406B2;
   --code-highlight-color: rgba(255,255,0,0.5);
-  --inverse-text-color: #DEDCDD;
-  --inverse-background-color: #457A9A;
-  --inverse-header-color: #DEDCDD;
-  --title-slide-background-color: #457A9A;
-  --title-slide-text-color: #DEDCDD;
-  --header-background-color: #2C2788;
+  --inverse-text-color: #ffffff;
+  --inverse-background-color: #562457;
+  --inverse-header-color: #ffffff;
+  --title-slide-background-color: #562457;
+  --title-slide-text-color: #ffffff;
+  --header-background-color: #562457;
   --header-background-text-color: #ffffff;
-  --base: #43418A;
+  --base: #A406B2;
   --white: #FFFFFF;
   --black: #272822;
 }
@@ -101,7 +101,7 @@ h1, h2, h3 {
   color: #179c55;
 }
 .remark-slide-number {
-  color: #43418A;
+  color: #A406B2;
   opacity: 1;
   font-size: 0.9em;
 }
@@ -143,10 +143,10 @@ a, a > code {
   float: left;
 }
 .left-column h2, .left-column h3 {
-  color: #43418A99;
+  color: #A406B299;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-  color: #43418A;
+  color: #A406B2;
 }
 .right-column {
   width: 75%;
@@ -168,7 +168,7 @@ img, video, iframe {
   max-width: 100%;
 }
 blockquote {
-  border-left: solid 5px #43418A80;
+  border-left: solid 5px #A406B280;
   padding-left: 1em;
 }
 .remark-slide table {
@@ -183,7 +183,7 @@ th, td {
   padding: 5px;
 }
 .remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) {
-  background: #D9D9E7;
+  background: #ECCDEF;
 }
 table.dataTable tbody {
   background-color: var(--background-color);
@@ -193,7 +193,7 @@ table.dataTable.display tbody tr.odd {
   background-color: var(--background-color);
 }
 table.dataTable.display tbody tr.even {
-  background-color: #D9D9E7;
+  background-color: #ECCDEF;
 }
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.5);
