@@ -3,7 +3,7 @@ title: "Produciendo mi próximo artículo científico con R"
 subtitle: "Compendios de Investigación, Reproducibilidad e Interactividad en las publicaciones académicas"  
 author: 
   - "Dra. Florencia D'Andrea"
-date: '2/12/2020'
+date: '21/12/2020'
 output:
   xaringan::moon_reader:
     seal: false # saco filmina de inicio
@@ -13,6 +13,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
 ---
 
 ```{r setup, include=FALSE}
@@ -54,7 +55,30 @@ style_mono_accent(
 
 ```
 
-
+```{r metathis, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "flor14/rladies-jujuy") %>% 
+  meta_social(
+    title = "Meetup R-Ladies Jujuy",
+    description = paste(
+      "Charla para el capítulo de R-Ladies de Jujuy, Argentina",
+      "Diciembre de 2020"
+    ),
+    url = "https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1",
+    image = "https://res.cloudinary.com/flor/image/upload/v1608248795/hornoacal_jrb5mu.jpg",
+    image_alt = paste(
+      "Produciendo mi próximo artículo científico con R:", 
+      "Compendios de Investigación, Reproducibilidad e",
+      "Interactividad en las publicaciones académicas"
+      ),
+    og_type = "website",
+    og_author = "Florencia D'Andrea",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@cantoflor_87",
+    twitter_site = "@cantoflor_87"
+  )
+```
 
 class: inverse, middle, center
 
@@ -73,26 +97,26 @@ class: inverse, center, middle
 
 Felicitaciones por el primer meetup
 
+
 ---
 
-background-image: url(imagenes/3.png)
+### ¿Quién soy yo?
+
+
+
+---
+
+background-image: url(imagenes/jujuy-colores.png)
 background-size: cover
-class: bottom
+class: bottom, inverse
 
-### Produciendo mi próximo artículo científico con R: Compendios de Investigación, Reproducibilidad e Interactividad en las publicaciones académicas
+### Produciendo mi próximo artículo científico con R 
+#### Compendios de Investigación, Reproducibilidad e Interactividad en las publicaciones académicas
 
 
 
- .large[#### Dra. Florencia D'Andrea | Instituto de Recursos Biológicos | 21 de Diciembre de 2020 
+ .large[Florencia D'Andrea | R-Ladies Jujuy | 21 de Diciembre de 2020 
 ]
-
- 
-```{r logos, echo = FALSE, out.width=100}
-
-knitr::include_graphics("imagenes/inta_conicet.jpg")
-
-```
-
 
 ---
 
@@ -295,6 +319,16 @@ class: center, middle, inverse
 
 ---
 
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">You&#39;re doing it right if you get frustrated: if you&#39;re not frustrated, you&#39;re (probably) not stretching yourself mentally</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/565516733516349441?ref_src=twsrc%5Etfw">11. Februar 2015</a></blockquote>
+
+```{r data-datum, echo = FALSE}
+xaringanExtra::embed_xaringan("https://twitter.com/data_datum/status/1338926940443521031?s=19")
+```
+
+
+
+---
 ## Ejemplo
 
 
@@ -939,11 +973,11 @@ knitr::include_graphics("imagenes/toronto.jpg")
 
 
 ---
-background-image: url(imagenes/3.png)
+background-image: url(imagenes/jujuy-colores.jpg)
 background-size: cover
+class: inverse
 
 # Referencias
-
 
 * Katz DS, Niemeyer KE, Smith AM, Anderson WL, Boettiger C, Hinsen K, Hooft R, Hucka M, Lee A, Löffler F, Pollard T, Rios F. 2016. [Software vs. data in the context of citation. PeerJ Preprints 4]( https://doi.org/10.7287/peerj.preprints.2630v1)
 
@@ -960,8 +994,9 @@ OECD Publishing, Paris. http://dx.doi.org/10.1787/5jrs2f963zs1-en
 
 ---
 
-background-image: url(imagenes/3.png)
+background-image: url(imagenes/jujuy-colores.jpg)
 background-size: cover
+class: inverse
 
 # Referencias
 
@@ -977,8 +1012,9 @@ background-size: cover
 
 ---
 
-background-image: url(imagenes/3.png)
+background-image: url(imagenes/jujuy-colores.jpg)
 background-size: cover
+class: inverse
 
 # Referencias
 #### Herramientas en R / Charlas
@@ -997,9 +1033,9 @@ background-size: cover
 
 ---
 
-background-image: url(imagenes/3.png)
+background-image: url(imagenes/jujuy-colores.png)
 background-size: cover
-class: center, middle
+class: center, middle, inverse
 
 ## ¡Muchas gracias por su atención!
 
