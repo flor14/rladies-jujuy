@@ -319,6 +319,8 @@ class: center, middle, inverse
 
 ---
 
+class: center, middle
+
 <blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Te pasan un código, preparate para gastar de 3 a 4 horas resolviendo todos los bugs para que funcione. 😒 </p>&mdash; Roxana Villafañe (@data_datum) <a href="https://twitter.com/data_datum/status/1338926940443521031?s=19">15 de Diciembre 2020</a></blockquote>
 
 ```{r data-datum, echo = FALSE}
@@ -514,8 +516,13 @@ knitr::include_graphics("imagenes/codecheck2.png")
 
 ## ¿Un cambio cultural?
 
+<blockquote class="twitter-tweet" data-lang="ens"><p lang="en" dir="ltr">The advert asks for: 
+"A commitment to following the best [..] practices in science, such as [..] sharing of computer code and writing reproducible research reports, [..]sharing of data whenever feasible"
+
+Have you come across job descriptions asking for such a commitment before?</p>&mdash; ReproHack(@ReproHack) <a href="https://twitter.com/ReproHack/status/1296061566484385792?s=20">19 August 2020</a></blockquote>
+
 ```{r tw, echo=FALSE, out.width=600,fig.align='center'}
-knitr::include_graphics("imagenes/tw_rh.png")
+#knitr::include_graphics("imagenes/tw_rh.png")
 ```
 
 .footnote[[Twitter ReproHack](https://www.nature.com/articles/d41586-020-02462-7)]
@@ -946,7 +953,6 @@ Libro de [The Turing Way](https://the-turing-way.netlify.app/welcome)
 ---
 
 # ReproHack
-
 
 ```{r rh, echo = FALSE, out.width=200, fig.align='center'}
 knitr::include_graphics("imagenes/reprohack.png")
