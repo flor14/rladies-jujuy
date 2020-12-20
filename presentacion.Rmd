@@ -243,35 +243,35 @@ Es el resultado de un proceso creativo que **proporciona una herramienta** para 
 ### Diez argumentos en contra de la **ciencia abierta...**
 
 
-####1. ... **no** es siempre abierta.
+####1. ... `no` es siempre abierta.
 
-####2. ...**históricamente ha carecido de diversidad** y exhibido una cultura no inclusiva.
+####2. ...`históricamente ha carecido de diversidad` y exhibido una cultura no inclusiva.
 
-####3. ...se basa en el **pensamiento occidental**.
+####3. ...se basa en el `pensamiento occidental`.
 
 --
 
-####4. La política de **mi instituto** nunca me permitiría compartir mi trabajo abiertamente.
+####4. La política de `mi instituto` nunca me permitiría compartir mi trabajo abiertamente.
 
-####5. Mi trabajo no es lo **suficientemente** bueno para compartir.
+####5. Mi trabajo no es lo `suficientemente` bueno para compartir.
 
 .footnote[[Ten arguments against Open Science that you can win - Malvika Sharan](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)]
 
 ---
 
-### Diez argumentos en contra de la **ciencia abierta...**
+### Diez argumentos en contra de la `ciencia abierta...`
 
-####6. Le doy ventaja a mis **competidores**.
+####6. Le doy ventaja a mis `competidores`.
 
-####7. Escribí este código **solo para mis datos**.
+####7. Escribí este código `solo para mis datos`.
 
 --
 
-####8. **No puedo mantenerlo**, ¿por qué molestarme en compartirlo?
+####8. `No puedo mantenerlo`, ¿por qué molestarme en compartirlo?
 
-####9. ¿Qué pasa si la gente **juzga** mi código (...)?
+####9. ¿Qué pasa si la gente `juzga` mi código (...)?
 
-####10. Mi trabajo **no será reconocido** y eso no va a ayudar a mi carrera.
+####10. Mi trabajo `no será reconocido` y eso no va a ayudar a mi carrera.
 
 --
 
@@ -307,7 +307,7 @@ knitr::include_graphics("imagenes/data_available.png")
 
 class: middle, center
 
-<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">When authors say they will "make data available upon request"
+<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">"When authors say they will "make data available upon request"
 
 '#OpenScienceGif </p>&mdash; Heidi Seibold (@HeidiBaya) <a href="https://twitter.com/HeidiBaya/status/1335897311931740163?s=20">7 December 2020</a></blockquote>
 
