@@ -238,18 +238,62 @@ Es el resultado de un proceso creativo que **proporciona una herramienta** para 
 
 ---
 
+---
+
+### Diez argumentos en contra de la **ciencia abierta...**
+
+
+####1. ... **no** es siempre abierta.
+
+####2. ...**históricamente ha carecido de diversidad** y exhibido una cultura no inclusiva.
+
+####3. ...se basa en el **pensamiento occidental**.
+
+--
+
+####4. La política de **mi instituto** nunca me permitiría compartir mi trabajo abiertamente.
+
+####5. Mi trabajo no es lo **suficientemente** bueno para compartir.
+
+.footnote[[Ten arguments against Open Science that you can win - Malvika Sharan](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)]
+
+---
+
+### Diez argumentos en contra de la **ciencia abierta...**
+
+####6. Le doy ventaja a mis **competidores**.
+
+####7. Escribí este código **solo para mis datos**.
+
+--
+
+####8. **No puedo mantenerlo**, ¿por qué molestarme en compartirlo?
+
+####9. ¿Qué pasa si la gente **juzga** mi código (...)?
+
+####10. Mi trabajo **no será reconocido** y eso no va a ayudar a mi carrera.
+
+--
+
+###**... que puedes ganar:** 
+
+[**Ten arguments against Open Science that you can win** - Malvika Sharan](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)
+
+---
+
 ```{r openr, echo = FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("imagenes/openresearch.jpg")
 ```
 
 .footnote[[Imagen: The Turing Way Community, & Scriberia (2020)]( https://zenodo.org/record/4323154)]
 
+
 ---
 ## Los datos y el software se citan
 
-### Autores de artículos
+**¿Sos autor/a de un artículo?**
 
-* Incluir citas a datos y software en el manuscrito
+* Incluí citas a datos y software en el manuscrito
 
 * Publica tu propios datos y software y citalos también
 
@@ -258,6 +302,18 @@ knitr::include_graphics("imagenes/openresearch.jpg")
 knitr::include_graphics("imagenes/data_available.png")
 ```
 .footnote[Más formas de citar datos en [The Turing Way Community (2019) - Credit for reproducible research](https://the-turing-way.netlify.app/reproducible-research/credit.html?highlight=cite%20data)]
+
+---
+
+class: middle, center
+
+<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">When authors say they will "make data available upon request"
+
+'#OpenScienceGif </p>&mdash; Heidi Seibold (@HeidiBaya) <a href="https://twitter.com/HeidiBaya/status/1335897311931740163?s=20">7 December 2020</a></blockquote>
+
+
+
+
 ---
 
 ## Los datos y el software se citan
@@ -291,6 +347,12 @@ knitr::include_graphics("imagenes/DOI.jpg")
 knitr::include_graphics("imagenes/zenodo_versioning.png")
 ```
 .footnote[[Zenodo Blog - Zenodo now supports DOI versioning!](https://blog.zenodo.org/2017/05/30/doi-versioning-launched/)]
+
+---
+class: inverse, middle, center
+
+### Demo 1
+### Zenodo
 
 ---
 
@@ -364,6 +426,11 @@ knitr::include_graphics("imagenes/tidyr.png")
 .footnote[Logo de `tidyr` por [RStudio](https://rstudio.com/)]
 
 ---
+class: inverse, middle, center
+
+### Demo 2
+### [Versiones](https://github.com/tidyverse/tidyr)
+---
 class: middle, center
 ## Reproducibilidad computacional
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
@@ -373,8 +440,6 @@ class: middle, center
 .tr[
  Stodden (2014)
 ]]
-
-
 
 ---
 ## Entorno computacional 
@@ -443,6 +508,11 @@ knitr::include_graphics("imagenes/renv.png")
 
 .footnote[[* Lee más sobre `renv` aquí](https://environments.rstudio.com/snapshot.html#pre-requisite-steps)]
 
+---
+class: inverse, middle, center
+
+### Demo 3
+### `renv`
 
 ---
 
@@ -480,6 +550,10 @@ class: center, inverse, middle
 * Mejoras el flujo de trabajo ⚙️ (ej: `here`, trabajo con proyectos)
 
 * Programación literaria ✍️ (`RMarkdown`)
+
+---
+
+
 
 ---
 
@@ -910,6 +984,15 @@ EFSA. (2018, June 26). Shiny R tool for the automation of systematic reviews (Ve
 
 ---
 
+# ¿Dónde publicar Software?
+
+*[¿Dónde publicar Shiny apps?](https://community.rstudio.com/t/can-i-publish-a-shiny-app-in-a-scientific-journal-how-where/6306/8) - Hilo en el foro de  RStudio Community
+
+* [In which journals should I publish my software?](https://www.software.ac.uk/which-journals-should-i-publish-my-software) By Neil Chue Hong. Software Sustainability Institute blog.
+
+
+---
+
 ## Gráficos interactivos
 
 ```{r hexplotly, echo = FALSE, out.width=100}
@@ -930,24 +1013,9 @@ knitr::include_graphics("imagenes/plotly.png")
 ---
 class: inverse, middle, center
 
-### Mostrar shiny app de mi próximo artículo
+### Demo
+### Artículo reproducible
 
----
-class: inverse, middle, center
-
-### Algunos lugares donde encontrar ayuda y buscar información
-
----
-
-
-
----
-
-# ¿Dónde publicar Software?
-
-*[¿Dónde publicar Shiny apps?](https://community.rstudio.com/t/can-i-publish-a-shiny-app-in-a-scientific-journal-how-where/6306/8) - Hilo en el foro de  RStudio Community
-
-[In which journals should I publish my software?](https://www.software.ac.uk/which-journals-should-i-publish-my-software) By Neil Chue Hong. Software Sustainability Institute blog.
 
 ---
 class: inverse, middle, center
@@ -1012,10 +1080,27 @@ xaringanExtra::embed_xaringan(url = "https://flor14.github.io/latinr-reprohack/i
 knitr::include_graphics("imagenes/toronto.jpg")
 ```
 
+---
+class: inverse
+
+## Recursos para consultar 📚💻
+
+* [Canal de YouTube de R-Ladies](https://www.youtube.com/channel/UCDgj5-mFohWZ5irWSFMFcng)
+
+* [R4DS en español - G. Grolemund y H. Wickham ](https://es.r4ds.hadley.nz/)
+
+* [R Markdown: The Definitive Guide - Y. Xie, J. J. Allaire, G. Grolemund](https://bookdown.org/yihui/rmarkdown/)
+
+* [Happy Git With R - J. Bryan, the STAT 545 TAs, J. Hester](https://happygitwithr.com/)
+
+* [Mastering Shiny - H. Wickham](https://mastering-shiny.org/)
+
+* [Become and R package developer! - M. Salmon](hhttps://new-r-dev.netlify.app/)
+
+* [Interactive web-based data visualization with R, plotly, and shiny - C. Sievert](https://plotly-r.com/)
 
 ---
-background-image: url(imagenes/jujuy-colores.jpg)
-background-size: cover
+
 class: inverse
 
 # Referencias
@@ -1035,8 +1120,6 @@ OECD Publishing, Paris. http://dx.doi.org/10.1787/5jrs2f963zs1-en
 
 ---
 
-background-image: url(imagenes/jujuy-colores.jpg)
-background-size: cover
 class: inverse
 
 # Referencias
@@ -1053,12 +1136,13 @@ class: inverse
 
 ---
 
-background-image: url(imagenes/jujuy-colores.jpg)
-background-size: cover
 class: inverse
 
 # Referencias
 #### Herramientas en R / Charlas
+
+* [Writing articles and reproducible documents R
+Anna Quaglieri](https://rpubs.com/annaquagli/471405)
 
 * [Reproducible Environments - RStudio](https://environments.rstudio.com/)
 
@@ -1074,9 +1158,7 @@ class: inverse
 
 ---
 
-background-image: url(imagenes/jujuy-colores.png)
-background-size: cover
-class: center, middle, inverse
+class: center, middle
 
 ## ¡Muchas gracias por su atención!
 
@@ -1088,6 +1170,11 @@ Dra. Florencia D'Andrea <br> **Investigadora postdoctoral** <br>
 
  <br> <br>
 
- Filminas disponibles [bit.ly/seminarioirb](https://flor14.github.io/seminario_irb_2020/presentacion.html#1) 
+ Filminas disponibles [bit.ly/rladiesjujuy-1](https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1) 
 
 ---
+
+background-image: url(imagenes/jujuy-colores.png)
+background-size: cover
+
+
