@@ -541,38 +541,60 @@ class: center, inverse, middle
 
 ---
 
-### Ventajas
+### (Algunas) Herramientas
 
-* Fomenta las colaboraciones 🤝 (**GitHub/GitLab**)
+#### Control de versiones
 
-* Permite seguir la historia de tu proyecto 📜 (Control de versiones **git**)
+* **GitHub/GitLab** 🤝 Fomenta las colaboraciones.  
 
-* Mejoras el flujo de trabajo ⚙️ (ej: `here`, trabajo con proyectos)
+*  **git** 📜 Permite seguir la historia de tu proyecto.
 
-* Programación literaria ✍️ (`RMarkdown`)
+```{r git, echo=FALSE, out.width=600, fig.align="center"}
+knitr::include_graphics("imagenes/git.jpg")
+```
+
+.footnote[[The Turing Way Community, & Scriberia (2020)]( http://doi.org/10.5281/zenodo.3695300)]
+---
+
+### (Algunas) Herramientas
+
+.pull-left[
+#### Estilo de código
+
+* styler
+
+#### Mejoras el flujo de trabajo ⚙️ 
+
+* Paquete `here` (rutas relativas de archivos) 
+
+* Uso de proyectos
+
+* Paquete `workflowr`
+
+]
+.pull-right[
+
+```{r style, echo=FALSE}
+knitr::include_graphics("imagenes/style.jpg")
+```
+
+]
 
 ---
 
+### (Algunas) Herramientas
 
+#### Programación literaria 
+
+* `RMarkdown` ✍️  + `rticles`
 
 ---
-
 ## Ventajas
 
 * Aumenta el impacto de las publicaciones 💥
 
 * Algunas revistas lo solicitan 📰
 
-
----
-
-## Desventajas 🥺
-
-* Lleva **esfuerzo** preparar el código y las bases de datos para publicar
-
-* Faltan incentivos
-
-* Se crea una ventaja para los "competidores"
 
 ---
 
@@ -1001,15 +1023,18 @@ knitr::include_graphics("imagenes/plotly.png")
 
 ```
 
-> "Los artículos científicos son cada vez más difíciles de leer; Si se usan adecuadamente, las figuras interactivas tienen el potencial de ayudar a contrarrestar esta tendencia. Esto es especialmente cierto para comunicar los hallazgos a los responsables políticos y al público en general en general" - [F1000 Research blog](https://blog.f1000.com/2017/07/19/so-long-static-we-now-support-interactive-ploty-figures-in-our-articles/)
+> "Los artículos científicos son cada vez más difíciles de leer; Si se usan adecuadamente, las **figuras interactivas** tienen el potencial de ayudar a contrarrestar esta tendencia. Esto es particularmente útil para **comunicar** los hallazgos a políticos y al público en general" - [F1000 Research blog](https://blog.f1000.com/2017/07/19/so-long-static-we-now-support-interactive-ploty-figures-in-our-articles/)
+
+[ELife Sciences / ejemplo Figura Interactiva](https://neurolibre.github.io/myelin-meta-analysis/01/selection.html#figure-1)
 
 
 ## Artículo reproducible
 
-[ELife Sciences / Artículo ejecutable](https://elifesciences.org/articles/30274/executable)
+[ELife Sciences / ejemplo Artículo ejecutable](https://elifesciences.org/articles/30274/executable)
 
 [stenci.la](https://stenci.la/)
 
+.footnote[[Mancini *et al.* 2020](https://elifesciences.org/articles/61523)]
 ---
 class: inverse, middle, center
 
@@ -1081,7 +1106,6 @@ knitr::include_graphics("imagenes/toronto.jpg")
 ```
 
 ---
-class: inverse
 
 ## Recursos para consultar 📚💻
 
@@ -1101,8 +1125,6 @@ class: inverse
 
 ---
 
-class: inverse
-
 # Referencias
 
 * Katz DS, Niemeyer KE, Smith AM, Anderson WL, Boettiger C, Hinsen K, Hooft R, Hucka M, Lee A, Löffler F, Pollard T, Rios F. 2016. [Software vs. data in the context of citation. PeerJ Preprints 4]( https://doi.org/10.7287/peerj.preprints.2630v1)
@@ -1113,14 +1135,14 @@ class: inverse
 
 * [Library Carpentry: FAIR Data and Software](https://librarycarpentry.org/lc-fair-research/)
 
+* Mancini, M., Karakuzu, A., Cohen-Adad, J., Cercignani, M., Nichols, T. E., & Stikov, N. (2020). [An interactive meta-analysis of MRI biomarkers of myelin.](https://elifesciences.org/articles/61523) Elife, 9, e61523.
+
 * Marwick, B., Boettiger, C., & Mullen, L. (2018). [Packaging data analytical work reproducibly using R (and friends). The American Statistician 72(1), 80-88.](https://doi.org/10.1080/00031305.2017.1375986)
 
 * [OECD (2015), “Making Open Science a Reality”](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf), OECD Science, Technology and Industry Policy Papers, No. 25,
 OECD Publishing, Paris. http://dx.doi.org/10.1787/5jrs2f963zs1-en
 
 ---
-
-class: inverse
 
 # Referencias
 
@@ -1136,13 +1158,10 @@ class: inverse
 
 ---
 
-class: inverse
-
 # Referencias
 #### Herramientas en R / Charlas
 
-* [Writing articles and reproducible documents R
-Anna Quaglieri](https://rpubs.com/annaquagli/471405)
+* [Writing articles and reproducible documents R - Anna Quaglieri](https://rpubs.com/annaquagli/471405)
 
 * [Reproducible Environments - RStudio](https://environments.rstudio.com/)
 
