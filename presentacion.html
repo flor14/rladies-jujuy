@@ -57,7 +57,7 @@
 
 class: inverse, middle, center
 
-<div class="countdown" id="timer_5fdf957c" style="right:0;bottom:0;" data-warnwhen="0">
+<div class="countdown" id="timer_5fdfa5d6" style="right:0;bottom:0;" data-warnwhen="0">
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
@@ -77,40 +77,16 @@ Felicitaciones por el primer meetup
 
 ---
 
-class: middle
-
-.pull-left[
-
-
-Dra. y Prof. Cs. Biológicas
-
-Instructora RStudio
-
-Instructora The Carpentries
-
-ReproHack core-team
-
-R-Ladies global team
-
-]
-.pull-right[
-
-&lt;img src="https://res.cloudinary.com/flor/image/upload/v1608466115/template_primary_wahkz0.jpg" width="250" /&gt;
-
-]
----
-
-background-image: url(imagenes/jujuy-colores.png)
+background-image: url(imagenes/jujuy-colores.jpg)
 background-size: cover
-class: bottom, inverse
+class: bottom
 
-### Produciendo mi próximo artículo científico con R 
-#### Compendios de Investigación, Reproducibilidad e Interactividad en las publicaciones académicas
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+### Mi próximo artículo científico en R
+### **Compendios de Investigación, Reproducibilidad e Interactividad en las publicaciones académicas**
 
-
-
- .large[Florencia D'Andrea | R-Ladies Jujuy | 21 de Diciembre de 2020 
-]
+ .large[####Florencia D'Andrea | R-Ladies Jujuy | 21 de Diciembre de 2020 
+]]
 
 ---
 
@@ -207,10 +183,9 @@ Es el resultado de un proceso creativo que **proporciona una herramienta** para 
 
 ---
 
----
-
 ### Diez argumentos en contra de la **ciencia abierta...**
 
+--
 
 ####1. ... `no` es siempre abierta.
 
@@ -228,7 +203,9 @@ Es el resultado de un proceso creativo que **proporciona una herramienta** para 
 
 ---
 
-### Diez argumentos en contra de la `ciencia abierta...`
+### Diez argumentos en contra de la **ciencia abierta...**
+
+--
 
 ####6. Le doy ventaja a mis `competidores`.
 
@@ -264,7 +241,7 @@ Es el resultado de un proceso creativo que **proporciona una herramienta** para 
 
 * Publica tu propios datos y software y citalos también
 
-&lt;img src="imagenes/data_available.png" width="800" style="display: block; margin: auto;" /&gt;
+&lt;img src="imagenes/data_available.png" width="1061" style="display: block; margin: auto;" /&gt;
 .footnote[Más formas de citar datos en [The Turing Way Community (2019) - Credit for reproducible research](https://the-turing-way.netlify.app/reproducible-research/credit.html?highlight=cite%20data)]
 
 ---
@@ -281,7 +258,8 @@ class: middle, center
 ---
 
 ## Los datos y el software se citan
-### Para quienes generan datos y software
+
+**¿Generas datos y software?**
 
 * Depositalo/s en un repositorio "estable" (ej. Zenodo, Figshare, etc)
 
@@ -637,95 +615,9 @@ class: middle, center
 [ERE] -&gt; [caracterización de efecto | concentraciones relevantes toxicológicamente]
 FALSETRUEFALSEFALSEFALSETRUE
 
-
-
----
-## Mi próxima publicación  
-
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-
-Statistically-based soil-climate scenarios for aquatic pesticide fate modelling and exposure assessment in the Pampa Region of Argentina.
-
-]
-
 ---
 
-# Bases de datos
-
-Empleo distintas bases de datos:
-
-* Suelo
-* Fenología
-* Hidrología
-* Clima
-* Propiedades de plaguicidas
-
-
-#fill: #FEFEFF
-#lineWidth: 1
-#zoom: 4
-#direction: right
-
-
-# direction: down | center 
-#.rlang: fill=#8f8 visual=ellipse title=bold
-
-[base de datos 1] 
-[base de datos 2] 
-[base de datos n] FALSETRUEFALSEFALSEFALSETRUE
-
-
-
----
-
-# Modelo
-
-**Pesticide Water Calculator v1.52** (USEPA)
- 
-Automatización de corridas: 
-117000 simulaciones =  30 años `*`  50 plaguicidas `*` 78 suelos - clima 
-
-
-
-#fill: #FEFEFF
-#lineWidth: 1
-#zoom: 4
-#direction: right
-
-
-# direction: down | center 
-#.high: fill=#8f8 title=bold
-
-[base de datos 1] --&gt; [&lt;high&gt;Modelo PWC]
-[base de datos 2] --&gt; [&lt;high&gt;Modelo PWC]
-[base de datos n] --&gt; [&lt;high&gt;Modelo PWC]FALSETRUEFALSEFALSEFALSETRUE
-
----
-
-# Resultados
-
-¡Una nueva base de datos!
-
-
-#fill: #FEFEFF
-#lineWidth: 1
-#zoom: 4
-#direction: right
-
-
-# direction: down | center 
-#.high: fill=#8f8 title=bold
-
-[base de datos 1] --&gt; [Modelo PWC]
-[base de datos 2] --&gt; [Modelo PWC]
-[base de datos *n*] --&gt; [Modelo PWC]
-[Modelo PWC] -&gt; [&lt;high&gt;Resultados]FALSETRUEFALSEFALSEFALSETRUE
-
----
-
-# Las Figuras
-
-Proceso los resultados con R. 
+## Mi flujo de trabajo
 
 
 #fill: #FEFEFF
@@ -936,7 +828,6 @@ class: middle, inverse
 
 ---
 
-
 ## Shiny
 
 &lt;img src="imagenes/shiny.jpg" width="100" /&gt;
@@ -952,10 +843,13 @@ EFSA. (2018, June 26). Shiny R tool for the automation of systematic reviews (Ve
 
 # ¿Dónde publicar Software?
 
-*[¿Dónde publicar Shiny apps?](https://community.rstudio.com/t/can-i-publish-a-shiny-app-in-a-scientific-journal-how-where/6306/8) - Hilo en el foro de  RStudio Community
+* [¿Dónde publicar Shiny apps?](https://community.rstudio.com/t/can-i-publish-a-shiny-app-in-a-scientific-journal-how-where/6306/8) - Hilo en el foro de  RStudio Community
 
-* [In which journals should I publish my software?](https://www.software.ac.uk/which-journals-should-i-publish-my-software) By Neil Chue Hong. Software Sustainability Institute blog.
+* [In which journals should I publish my software?](https://www.software.ac.uk/which-journals-should-i-publish-my-software) - Neil Chue Hong. Software Sustainability Institute blog.
 
+&lt;img src="imagenes/researchtools.jpg" height="500" style="display: block; margin: auto 0 auto auto;" /&gt;
+
+.footnote[[Imagen: The Turing Way Community, &amp; Scriberia. (2020)]( http://doi.org/10.5281/zenodo.3695300)]]
 
 ---
 
@@ -963,23 +857,25 @@ EFSA. (2018, June 26). Shiny R tool for the automation of systematic reviews (Ve
 
 &lt;img src="imagenes/plotly.png" width="100" /&gt;
 
-&gt; "Los artículos científicos son cada vez más difíciles de leer; Si se usan adecuadamente, las **figuras interactivas** tienen el potencial de ayudar a contrarrestar esta tendencia. Esto es particularmente útil para **comunicar** los hallazgos a políticos y al público en general" - [F1000 Research blog](https://blog.f1000.com/2017/07/19/so-long-static-we-now-support-interactive-ploty-figures-in-our-articles/)
+&gt; "Los artículos científicos son cada vez más difíciles de leer; si se usan adecuadamente, las **figuras interactivas** tienen el potencial de ayudar a contrarrestar esta tendencia. Son particularmente útiles para **comunicar** los hallazgos a políticos y al público en general" - [F1000 Research blog](https://blog.f1000.com/2017/07/19/so-long-static-we-now-support-interactive-ploty-figures-in-our-articles/)
 
 [ELife Sciences / ejemplo Figura Interactiva](https://neurolibre.github.io/myelin-meta-analysis/01/selection.html#figure-1)
 
 
 ## Artículo reproducible
 
-[ELife Sciences / ejemplo Artículo ejecutable](https://elifesciences.org/articles/30274/executable)
-
+[ELife Sciences / ejemplo Artículo ejecutable](https://elifesciences.org/articles/30274/executable) - 
 [stenci.la](https://stenci.la/)
 
 .footnote[[Mancini *et al.* 2020](https://elifesciences.org/articles/61523)]
+
 ---
+
 class: inverse, middle, center
 
 ### Demo
-### Artículo reproducible
+### Artículo reproducible 
+### Figuras Interactivas
 
 
 ---
@@ -993,7 +889,7 @@ class: inverse, middle, center
 # ROpenSci
 
 
-&lt;img src="imagenes/ropensci.png" width="200" style="display: block; margin: auto;" /&gt;
+&lt;img src="imagenes/ropensci.png" width="300" style="display: block; margin: auto;" /&gt;
 
 
 [Web](https://ropensci.org/)
@@ -1006,7 +902,7 @@ class: inverse, middle, center
 # The Turing Way
 
 
-&lt;img src="imagenes/LogoDetailWithText.jpg" width="200" style="display: block; margin: auto;" /&gt;
+&lt;img src="imagenes/LogoDetailWithText.jpg" width="300" style="display: block; margin: auto;" /&gt;
 
 Libro de [The Turing Way](https://the-turing-way.netlify.app/welcome)
 
@@ -1018,7 +914,7 @@ Libro de [The Turing Way](https://the-turing-way.netlify.app/welcome)
 
 # ReproHack
 
-&lt;img src="imagenes/reprohack.png" width="200" style="display: block; margin: auto;" /&gt;
+&lt;img src="imagenes/reprohack.png" width="300" style="display: block; margin: auto;" /&gt;
 
 
 [Twitter de ReproHack](https://twitter.com/ReproHack)
@@ -1040,8 +936,9 @@ Libro de [The Turing Way](https://the-turing-way.netlify.app/welcome)
 
 ---
 
-## Recursos para consultar 📚💻
+### Recursos para consultar 📚💻
 
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 * [Canal de YouTube de R-Ladies](https://www.youtube.com/channel/UCDgj5-mFohWZ5irWSFMFcng)
 
 * [R4DS en español - G. Grolemund y H. Wickham ](https://es.r4ds.hadley.nz/)
@@ -1055,31 +952,50 @@ Libro de [The Turing Way](https://the-turing-way.netlify.app/welcome)
 * [Become and R package developer! - M. Salmon](hhttps://new-r-dev.netlify.app/)
 
 * [Interactive web-based data visualization with R, plotly, and shiny - C. Sievert](https://plotly-r.com/)
+]
+---
+class: inverse, center, middle
+
+## Referencias
 
 ---
 
-# Referencias
 
+background-image: url(imagenes/jujuy-colores.jpg)
+background-size: cover
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 * Katz DS, Niemeyer KE, Smith AM, Anderson WL, Boettiger C, Hinsen K, Hooft R, Hucka M, Lee A, Löffler F, Pollard T, Rios F. 2016. [Software vs. data in the context of citation. PeerJ Preprints 4]( https://doi.org/10.7287/peerj.preprints.2630v1)
 
 * Lamprecht, A. L., Garcia, L., Kuzak, M., Martinez, C., Arcila, R., Martin Del Pico, E., ... &amp; McQuilton, P. (2020). Towards FAIR principles for research software. Data Science, 3(1), 37-59.
 
-* [Lista de recursos sobre Research compendium](https://research-compendium.science/)
-
 * [Library Carpentry: FAIR Data and Software](https://librarycarpentry.org/lc-fair-research/)
 
 * Mancini, M., Karakuzu, A., Cohen-Adad, J., Cercignani, M., Nichols, T. E., &amp; Stikov, N. (2020). [An interactive meta-analysis of MRI biomarkers of myelin.](https://elifesciences.org/articles/61523) Elife, 9, e61523.
+
+]
+
+---
+
+background-image: url(imagenes/jujuy-colores.jpg)
+background-size: cover
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+
 
 * Marwick, B., Boettiger, C., &amp; Mullen, L. (2018). [Packaging data analytical work reproducibly using R (and friends). The American Statistician 72(1), 80-88.](https://doi.org/10.1080/00031305.2017.1375986)
 
 * [OECD (2015), “Making Open Science a Reality”](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf), OECD Science, Technology and Industry Policy Papers, No. 25,
 OECD Publishing, Paris. http://dx.doi.org/10.1787/5jrs2f963zs1-en
 
----
-
-# Referencias
-
 * The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). [The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986](https://the-turing-way.netlify.app/)
+]
+
+---
+background-image: url(imagenes/jujuy-colores.jpg)
+background-size: cover
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 
 * Peng RD (2011), [Reproducible Research in Computational Science. Science 334(6060): 1226–1227](doi:10.1126/science.1213847)
 
@@ -1088,10 +1004,12 @@ OECD Publishing, Paris. http://dx.doi.org/10.1787/5jrs2f963zs1-en
 * Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
 
 * [Webpage Principios FAIR](https://www.go-fair.org/fair-principles/)
-
+]
 ---
+background-image: url(imagenes/jujuy-colores.jpg)
+background-size: cover
 
-# Referencias
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 #### Herramientas en R / Charlas
 
 * [Writing articles and reproducible documents R - Anna Quaglieri](https://rpubs.com/annaquagli/471405)
@@ -1102,32 +1020,55 @@ OECD Publishing, Paris. http://dx.doi.org/10.1787/5jrs2f963zs1-en
 
 * [Putting the R into Reproducible Research - Anna Krystalli](https://annakrystalli.me/talks/r-in-repro-research.html#1)
 
-* [Improve your workflow for reproducible science - Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/improve-repro-workflow-reproducibilitea-2020/slides/improve-repro-workflow-reproducibilitea-2020.pdf) 
+* [Improve your workflow for reproducible science - Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/improve-repro-workflow-reproducibilitea-2020/slides/improve-repro-workflow-reproducibilitea-2020.pdf) ]
+
+---
+background-image: url(imagenes/jujuy-colores.jpg)
+background-size: cover
+
+
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 
 #### Ilustraciones
 
 * The Turing Way Community, &amp; Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.3695300
 
----
+]
 
+---
 class: center, middle
 
-## ¡Muchas gracias por su atención!
+## ¿Preguntas?
 
-&lt;br&gt;&lt;br&gt;
-Dra. Florencia D'Andrea &lt;br&gt; **Investigadora postdoctoral** &lt;br&gt;
+.pull-left[
+#### Dra. Florencia D'Andrea 
+**Investigadora postdoctoral**&lt;br&gt; 
+**Instructora certificada RStudio**&lt;br&gt;
+**Instructora The Carpentries**&lt;br&gt;
+**ReproHack core-team**&lt;br&gt;
+**R-Ladies global team**&lt;br&gt;
+
 <i class="fab  fa-github "></i> [@flor14]("http://github.com/flor14") &lt;br&gt;
 <i class="fab  fa-twitter "></i> [@cantoflor_87]("http://twitter.com/cantoflor_87")&lt;br&gt;
-<i class="fas  fa-link "></i> [florencia.netlify.app/es-es/]("https://florencia.netlify.app/es-es/")&lt;br&gt;
+<i class="fas  fa-link "></i> [florencia.netlify.app/es-es/]("https://florencia.netlify.app/es-es/")
+]
 
- &lt;br&gt; &lt;br&gt;
-
- Filminas disponibles [bit.ly/rladiesjujuy-1](https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1) 
+.pull-right[ 
+&lt;img src="https://res.cloudinary.com/flor/image/upload/v1608466115/template_primary_wahkz0.jpg" width="250" /&gt;
+]
 
 ---
 
-background-image: url(imagenes/jujuy-colores.png)
+background-image: url(imagenes/jujuy-colores.jpg)
 background-size: cover
+class: center, middle
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+## ¡Muchas gracias por su atención!
+
+ Filminas disponibles [bit.ly/rladiesjujuy-1](https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1) ]
+---
 
 
     </textarea>
