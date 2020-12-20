@@ -39,14 +39,14 @@ xaringanExtra::use_tachyons()
 xaringanExtra::use_fit_screen()
 xaringanExtra::use_tile_view() # O
 style_mono_accent(
-  base_color = "#A406B2",
+  base_color = "#0dc96f",
   background_color = "#ffffff",
   inverse_background_color = "#562457",
   header_color = "#562457",
   inverse_header_color = "#ffffff", 
   inverse_text_color = "#ffffff",
   code_inline_color = "#179c55",
-  link_color= "#a7a9ac",
+  link_color= "#A406B2",
   text_font_size = "25px",
   header_font_google = google_font("Poppins", "Regular", "400"),
   text_font_google   = google_font("Darker Grotesque", "500"),
@@ -62,15 +62,15 @@ meta() %>%
   meta_social(
     title = "Meetup R-Ladies Jujuy",
     description = paste(
-      "Charla para el capítulo de R-Ladies de Jujuy, Argentina",
-      "Diciembre de 2020"
-    ),
-    url = "https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1",
-    image = "https://res.cloudinary.com/flor/image/upload/v1608248795/hornoacal_jrb5mu.jpg",
-    image_alt = paste(
       "Produciendo mi próximo artículo científico con R:", 
       "Compendios de Investigación, Reproducibilidad e",
       "Interactividad en las publicaciones académicas"
+    ),
+    url = "https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1",
+    image = "https://res.cloudinary.com/flor/image/upload/v1608248822/jujuy-colores_frmvax.jpg",
+    image_alt = paste(
+      "Charla para el capítulo de R-Ladies de Jujuy, Argentina",
+      "Diciembre de 2020"
       ),
     og_type = "website",
     og_author = "Florencia D'Andrea",
@@ -84,8 +84,6 @@ class: inverse, middle, center
 
 `r countdown(minutes = 5)`
 
-
-
 ### Empezamos en 5 minutos
 Tenes tiempo para irte a buscar el ☕ o preparar el agua para el 🧉
 
@@ -93,17 +91,38 @@ Tenes tiempo para irte a buscar el ☕ o preparar el agua para el 🧉
 
 class: inverse, center, middle
 
-### ¡Gracias R-Ladies Jujuy por la invitación!
+### ¡Hola R-Ladies Jujuy!
+
+![](https://media.giphy.com/media/3oge7Ve0gmIOhJkhOg/giphy.gif)
 
 Felicitaciones por el primer meetup
 
 
 ---
 
-### ¿Quién soy yo?
+class: middle
+
+.pull-left[
 
 
+Dra. y Prof. Cs. Biológicas
 
+Instructora RStudio
+
+Instructora The Carpentries
+
+ReproHack core-team
+
+R-Ladies global team
+
+]
+.pull-right[
+
+```{r foto, echo = FALSE, out.width=250}
+knitr::include_graphics("https://res.cloudinary.com/flor/image/upload/v1608466115/template_primary_wahkz0.jpg")
+```
+
+]
 ---
 
 background-image: url(imagenes/jujuy-colores.png)
@@ -120,8 +139,7 @@ class: bottom, inverse
 
 ---
 
-class: center, middle, inverse
-
+class: center, middle
 
 ### Licencia
 
@@ -220,6 +238,13 @@ Es el resultado de un proceso creativo que **proporciona una herramienta** para 
 
 ---
 
+```{r openr, echo = FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("imagenes/openresearch.jpg")
+```
+
+.footnote[[Imagen: The Turing Way Community, & Scriberia (2020)]( https://zenodo.org/record/4323154)]
+
+---
 ## Los datos y el software se citan
 
 ### Autores de artículos
@@ -322,12 +347,6 @@ class: center, middle, inverse
 class: center, middle
 
 <blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Te pasan un código, preparate para gastar de 3 a 4 horas resolviendo todos los bugs para que funcione. 😒 </p>&mdash; Roxana Villafañe (@data_datum) <a href="https://twitter.com/data_datum/status/1338926940443521031?s=19">15 de Diciembre 2020</a></blockquote>
-
-```{r data-datum, echo = FALSE}
-#knitr::include_graphics("imagenes/data_datum.png")
-
-```
-
 
 
 ---
@@ -513,6 +532,7 @@ knitr::include_graphics("imagenes/codecheck2.png")
 ]
 
 ---
+class: middle, center
 
 ## ¿Un cambio cultural?
 
@@ -521,11 +541,8 @@ knitr::include_graphics("imagenes/codecheck2.png")
 
 Have you come across job descriptions asking for such a commitment before?</p>&mdash; ReproHack(@ReproHack) <a href="https://twitter.com/ReproHack/status/1296061566484385792?s=20">19 August 2020</a></blockquote>
 
-```{r tw, echo=FALSE, out.width=600,fig.align='center'}
-#knitr::include_graphics("imagenes/tw_rh.png")
-```
 
-.footnote[[Twitter ReproHack](https://www.nature.com/articles/d41586-020-02462-7)]
+.footnote[[Twitter ReproHack](https://twitter.com/ReproHack)]
 
 ---
 
@@ -922,6 +939,24 @@ class: inverse, middle, center
 
 ---
 
+
+
+---
+
+# ¿Dónde publicar Software?
+
+*[¿Dónde publicar Shiny apps?](https://community.rstudio.com/t/can-i-publish-a-shiny-app-in-a-scientific-journal-how-where/6306/8) - Hilo en el foro de  RStudio Community
+
+[In which journals should I publish my software?](https://www.software.ac.uk/which-journals-should-i-publish-my-software) By Neil Chue Hong. Software Sustainability Institute blog.
+
+---
+class: inverse, middle, center
+
+### Comunidades 
+
+
+
+---
 # ROpenSci
 
 
