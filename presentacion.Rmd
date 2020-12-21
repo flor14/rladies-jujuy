@@ -549,7 +549,7 @@ knitr::include_graphics("imagenes/style.jpg")
 
 #### Programación literaria 
 
-```{r rmkdm, echo=FALSE}
+```{r rmkdm, echo=FALSE, out.width=500}
 knitr::include_graphics("imagenes/rmarkdown.png")
 ```
 
