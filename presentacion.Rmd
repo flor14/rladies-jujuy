@@ -62,14 +62,14 @@ meta() %>%
   meta_social(
     title = "Meetup R-Ladies Jujuy",
     description = paste(
-      "Produciendo mi próximo artículo científico con R:", 
+      "Mi próximo artículo científico con R:", 
       "Compendios de Investigación, Reproducibilidad e",
       "Interactividad en las publicaciones académicas"
     ),
     url = "https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1",
     image = "https://res.cloudinary.com/flor/image/upload/v1608248822/jujuy-colores_frmvax.jpg",
     image_alt = paste(
-      "Charla para el capítulo de R-Ladies de Jujuy, Argentina",
+      "Charla para el capítulo de R-Ladies de Jujuy, Argentina.",
       "Diciembre de 2020"
       ),
     og_type = "website",
@@ -118,14 +118,6 @@ class: center, middle
 ### Licencia
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">licencia de Creative Commons Reconocimiento 4.0 Internacional</a>
-
----
-
-class: inverse, middle, center
-
-## ⚠
-### ¡Atención! 
-#### El foco de esta charla esta en el software y los datos 
 
 ---
 
@@ -327,8 +319,9 @@ knitr::include_graphics("imagenes/zenodo_versioning.png")
 ---
 class: inverse, middle, center
 
-### Demo 1
+### Demo 1 
 ### Zenodo
+#### [link](https://zenodo.org/deposit/new)
 
 ---
 
@@ -405,7 +398,8 @@ knitr::include_graphics("imagenes/tidyr.png")
 class: inverse, middle, center
 
 ### Demo 2
-### [Versiones](https://github.com/tidyverse/tidyr)
+### Versiones
+#### [link](https://github.com/tidyverse/tidyr)
 ---
 class: middle, center
 ## Reproducibilidad computacional
@@ -501,14 +495,6 @@ knitr::include_url("https://flor14.github.io/r_de_reproducibilidad/r_de_reproduc
 ```
 
 
----
-
-## Experiencia previa: publicación de código
-
-```{r joss, echo = FALSE, out.width=500}
-knitr::include_graphics("imagenes/joss.png")
-```
-.footnote[D’Andrea (2019). Journal of Open Source Software, 4(37), 785, https://doi.org/10.21105/joss.00785]
 
 ---
 
@@ -537,7 +523,8 @@ knitr::include_graphics("imagenes/git.jpg")
 .pull-left[
 #### Estilo de código
 
-* styler
+* Usar guias de estilo (formatR / lintR / styleR)
+
 
 #### Mejoras el flujo de trabajo ⚙️ 
 
@@ -562,14 +549,25 @@ knitr::include_graphics("imagenes/style.jpg")
 
 #### Programación literaria 
 
-* `RMarkdown` ✍️  + `rticles`
+```{r rmkdm, echo=FALSE}
+knitr::include_graphics("imagenes/rmarkdown.png")
+```
+
+
+
+
+Paquetes [`RMarkdown`](https://bookdown.org/yihui/rmarkdown/) ✍️  + [`rticles`](https://github.com/rstudio/rticles)
+
 
 ---
-## Ventajas
 
-* Aumenta el impacto de las publicaciones 💥
+class: inverse, middle, center
 
-* Algunas revistas lo solicitan 📰
+
+## Demo
+### RMarkdown + rticles
+
+
 
 
 ---
@@ -631,7 +629,7 @@ knitr::include_graphics("imagenes/CultureShift.jpg")
 
 
 class: inverse, middle, center
-# 🙌👩‍💻
+# 🙌
 # ¡Manos a la obra!
 
 ---
@@ -657,23 +655,6 @@ class: middle, center
 knitr::include_graphics("imagenes/lagunas.png")
 ```
 .footnote[Imagenes tomadas por [Julie Brodeur](https://twitter.com/julbrodeur)]
----
-
-## Evaluación de Riesgo Ecotoxicológico (ERE)
-
-* Riesgo de aplicaciones de **plaguicidas** sobre la **biota acuática**
-
-* El riesgo se estima de la comparación ente ambas concentraciones
-
-```{nomnoml echo=FALSE, svg= TRUE, fig.width = 10, fig.align = "center"}
-# direction: down | center 
-#.resaltado: fill=#8f8 title=bold
-
-[ERE] -> [<resaltado>caracterización de exposición | concentraciones de plaguicida]
-[ERE] -> [caracterización de efecto | concentraciones relevantes toxicológicamente]
-
-```
-
 ---
 
 ## Mi flujo de trabajo
@@ -760,7 +741,7 @@ knitr::include_graphics("imagenes/small_rc.png")
 .footnote[[Marwick *et al.* (2018)](https://doi.org/10.1080/00031305.2017.1375986)]
 ---
 
-## ¿Que agrego cuando agrego un compendio de investigacion?
+## ¿Qué agrego en un compendio de investigación?
 
 ```{nomnoml echo=FALSE, svg= TRUE, fig.width = 10}
 
@@ -783,42 +764,108 @@ knitr::include_graphics("imagenes/small_rc.png")
 ---
 
 ## Paquete `rrtools` 
-#### Genera compendios de investigación en R
+#### Compendios de investigación en R
 
-```{r rclogo, echo = FALSE, out.width=100}
+```{r rclogo, echo = FALSE, out.width=100, fig.align ='right'}
 knitr::include_graphics("imagenes/rc-logo.png")
 ```
+
 [Paquete (no esta en CRAN)](https://github.com/benmarwick/rrtools)
 
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-El objetivo de `rrtools` es proporcionar instrucciones, plantillas y funciones para hacer un compendio básico adecuado para escribir investigaciones reproducibles con R.]
+`rrtools` proporciona instrucciones, plantillas y funciones para hacer un compendio básico adecuado para escribir **investigaciones reproducibles con R**.]
 
 .footnote[[Marwick *et al.* (2018)](https://doi.org/10.1080/00031305.2017.1375986)]
+
 ---
 
-[Tutorial de Anna Krystalli, mejor recurso para aprender](https://annakrystalli.me/rrresearch/10_compendium.html)
+## Paquete 
 
-✔️ Control de versiones
+La **unidad fundamental de código** que se puede compartir en R, es el paquete.
 
-➕ Estructura de paquete de R
+El paquete agrupa:
+* código
+* datos
+* documentación 
+* tests
+y es fácil de compartir con otros.
 
-➕ Licencia
 
-➕ Crear un README
+.footnote[[Wickham, H. (2015)](https://r-pkgs.org/intro.html)]
+
+---
+class: center, middle
+```{r vertical, echo = FALSE}
+knitr::include_url("https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13428-020-01436-x/MediaObjects/13428_2020_1436_Fig2_HTML.png?as=webp")
+```
+.footnote[[Vourre *et al.*(2020)](https://link.springer.com/article/10.3758/s13428-020-01436-x)]
+---
+
+## Armando el compendio
+
+Algunas funciones. Recomiendo el [Tutorial de Anna Krystalli](https://annakrystalli.me/rrresearch/10_compendium.html)
+
+.panelset[
+
+.panel[.panel-name[Compendio]
+
+```{r compendio, eval=FALSE, include=TRUE}
+library(rrtools)
+library(usethis)
+# Inicia el compendio como un proyecto
+rrtools::create_compendium("~/Documents/workflows/rrcompendium")
+# Iniciar el control de versiones
+usethis::use_git()
+```
+Editar el archivo DESCRIPTION
+
+]
+.panel[.panel-name[Licencia]
+```{r usethis, echo = FALSE, out.width=100}
+knitr::include_graphics("imagenes/usethis.png")
+```
+
+```{r usethis2, eval=FALSE, include=TRUE}
+library(usethis)
+# Hay una función por cada tipo de licencia
+usethis::use_mit_license("Florencia D Andrea")
+```
+]
+.panel[.panel-name[README]
+
+```{r readme, eval=FALSE, include=TRUE}
+# Agrega el archivo README que se puede editar desde R
+rrtools::use_readme_rmd()
+```
 
 ➕ Agregar un DOI
 
 ➕ Agregar cómo se cita
+]
+.panel[.panel-name[Estructura]
 
-✔️ Agregar una estructura de archivos `analysis/` y `data/`
+```{r analysis2, eval=FALSE, include=TRUE}
+
+# Estructura de carpetas 
+rrtools::use_analysis()
+
+# Agregar los paquetes a la DESCRIPACION
+rrtools::add_dependencies_to_description()
+```
+
+Nota: Seguir el tutorial 
+
+]
+.panel[.panel-name[Manuscrito]
 
 ✔️ Generar el manuscrito con código incluido en `RMarkdown` 
 
 ✔️️ Usar la plantilla del journal con el paquete `rticles`
 
-✔️️ Manejar las dependencias 
+]
 
+]
 
 ---
 
@@ -826,30 +873,11 @@ El objetivo de `rrtools` es proporcionar instrucciones, plantillas y funciones p
 
 .panelset[
 
-.panel[.panel-name[Licencia]
+.panel[.panel-name[Bibliografía]
 
-* **Incluir un archivo con la licencia** indica a los demás cómo puede ser reutilizado tu trabajo.
+[*RStudio* en la v1.4 va a incluir forma facil una forma más facil de insertar citas](https://blog.rstudio.com/2020/11/09/rstudio-1-4-preview-citations/) 
 
-```{r usethis, echo = FALSE, out.width=50}
-knitr::include_graphics("imagenes/usethis.png")
-```
-
-El paquete `usethis` incluye funciones que agregan la licencia que elijas a tu proyecto:
-
-```{r usethis2, eval=FALSE, include=TRUE}
-library(usethis)
-usethis::use_mit_license("Florencia D Andrea")
-```
-]
-
-.panel[.panel-name[Control de versiones]
-
-Sistemas de control de versiones como `Git` <ion-icon name="logo-octocat"></ion-icon> es la mejor manera de preservar el historial de cambios en el compendio de investigación.
-
-* **Facilita la colaboración** privada entre colegas
-sobre el proyecto 
-
-* **Facilita la distribución y mantenimiento** del compendio en el futuro
+Se incluyen como un archivo **.bib** 
 
 ]
 .panel[.panel-name[Persistencia]
@@ -921,6 +949,15 @@ knitr::include_graphics("imagenes/researchtools.jpg")
 
 ---
 
+## Journal of Open Source Software (JOSS)
+
+```{r joss, echo = FALSE, out.width=500}
+knitr::include_graphics("imagenes/joss.png")
+```
+.footnote[D’Andrea MF (2019). Journal of Open Source Software, 4(37), 785, https://doi.org/10.21105/joss.00785]
+
+---
+
 ## Gráficos interactivos
 
 ```{r hexplotly, echo = FALSE, out.width=100}
@@ -946,8 +983,7 @@ knitr::include_graphics("imagenes/plotly.png")
 class: inverse, middle, center
 
 ### Demo
-### Artículo reproducible 
-### Figuras Interactivas
+### Artículo reproducible / Figuras Interactivas
 
 
 ---
@@ -997,6 +1033,7 @@ knitr::include_graphics("imagenes/reprohack.png")
 
 [Twitter de ReproHack](https://twitter.com/ReproHack)
 
+[Slack (grupo colaborativo)](https://reprohack-autoinvite.herokuapp.com/)
 ---
 
 # ReproHack en [LatinR 2020](https://latin-r.com/blog/reprohack)
@@ -1032,13 +1069,14 @@ knitr::include_graphics("imagenes/toronto.jpg")
 
 * [Interactive web-based data visualization with R, plotly, and shiny - C. Sievert](https://plotly-r.com/)
 ]
+
 ---
+
 class: inverse, center, middle
 
 ## Referencias
 
 ---
-
 
 background-image: url(imagenes/jujuy-colores.jpg)
 background-size: cover
@@ -1068,6 +1106,8 @@ background-size: cover
 OECD Publishing, Paris. http://dx.doi.org/10.1787/5jrs2f963zs1-en
 
 * The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). [The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986](https://the-turing-way.netlify.app/)
+
+* Peng RD (2011), [Reproducible Research in Computational Science. Science 334(6060): 1226–1227](doi:10.1126/science.1213847)
 ]
 
 ---
@@ -1076,13 +1116,15 @@ background-size: cover
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 
-* Peng RD (2011), [Reproducible Research in Computational Science. Science 334(6060): 1226–1227](doi:10.1126/science.1213847)
-
 * Stodden, V. (2014). [Online; accessed 27. May 2020]. URL: https://www.edge.org/response-detail/25340.
+
+* Vuorre, M., Crump, M.J.C. [Sharing and organizing research products as R packages.](https://link.springer.com/article/10.3758/s13428-020-01436-x) Behav Res (2020). https://doi.org/10.3758/s13428-020-01436-x
 
 * Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
 
 * [Webpage Principios FAIR](https://www.go-fair.org/fair-principles/)
+
+* Wickham, H. (2015). [R packages: organize, test, document, and share your code."](https://r-pkgs.org/index.html) O'Reilly Media, Inc."
 ]
 ---
 background-image: url(imagenes/jujuy-colores.jpg)

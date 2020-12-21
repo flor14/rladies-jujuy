@@ -1,0 +1,786 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.21)  21 DEC 2020 15:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**paper.tex
+(./paper.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-07> xparse <2020-03-03>
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.c
+ls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.cl
+o
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\c@figure=\count179
+\c@table=\count180
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/marginnote/mar
+ginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count181
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graph
+icx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyva
+l.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graph
+ics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.
+sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/g
+raphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/x
+etex.def
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.
+sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/c
+olor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/preprint/authb
+lk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip49
+\@affilsep=\skip50
+\c@Maxaffil=\count182
+\c@authors=\count183
+\c@affil=\count184
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etool
+box.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/title
+sec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box47
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen141
+\ttl@minus=\dimen142
+\ttl@toksa=\toks16
+\titlewidth=\dimen143
+\titlewidthlast=\dimen144
+\titlewidthfirst=\dimen145
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count186
+\calc@Bcount=\count187
+\calc@Adimen=\dimen146
+\calc@Bdimen=\dimen147
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count188
+\calc@Cskip=\skip55
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/frontendla
+yer/tikz.sty
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer
+/pgf.sty
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/
+pgfrcs.sty
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilitie
+s/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen148
+\pgfutil@tempdimb=\dimen149
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilitie
+s/pgfutil-common-lists.tex))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilitie
+s/pgfutil-latex.def
+\pgfutil@abb=\box48
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilitie
+s/pgfrcs.code.tex
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revi
+sion.tex)
+Package: pgfrcs 2020/12/01 v3.1.7a (3.1.7a)
+))
+Package: pgf 2020/12/01 v3.1.7a (3.1.7a)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer
+/pgfcore.sty
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/systemlaye
+r/pgfsys.sty
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemla
+yer/pgfsys.code.tex
+Package: pgfsys 2020/12/01 v3.1.7a (3.1.7a)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilitie
+s/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilitie
+s/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen150
+\pgf@y=\dimen151
+\pgf@xa=\dimen152
+\pgf@ya=\dimen153
+\pgf@xb=\dimen154
+\pgf@yb=\dimen155
+\pgf@xc=\dimen156
+\pgf@yc=\dimen157
+\pgf@xd=\dimen158
+\pgf@yd=\dimen159
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count189
+\c@pgf@countb=\count190
+\c@pgf@countc=\count191
+\c@pgf@countd=\count192
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count193
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemla
+yer/pgf.cfg
+File: pgf.cfg 2020/12/01 v3.1.7a (3.1.7a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemla
+yer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2020/12/01 v3.1.7a (3.1.7a)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemla
+yer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2020/12/01 v3.1.7a (3.1.7a)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemla
+yer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/01 v3.1.7a (3.1.7a)
+)
+\pgfsys@objnum=\count194
+)))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemla
+yer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfsyssoftpath@smallbuffer@items=\count195
+\pgfsyssoftpath@bigbuffer@items=\count196
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemla
+yer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcore.code.tex
+Package: pgfcore 2020/12/01 v3.1.7a (3.1.7a)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+math.code.tex
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathcalc.code.tex
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathutil.code.tex)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathparser.code.tex
+\pgfmath@dimen=\dimen160
+\pgfmath@count=\count197
+\pgfmath@box=\box49
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfunctions.code.tex
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfunctions.basic.code.tex)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfunctions.trigonometric.code.tex)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfunctions.random.code.tex)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfunctions.comparison.code.tex)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfunctions.base.code.tex)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfunctions.round.code.tex)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfunctions.misc.code.tex)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfunctions.integerarithmetics.code.tex)))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+mathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count198
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+int.code.tex)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgf@picminx=\dimen161
+\pgf@picmaxx=\dimen162
+\pgf@picminy=\dimen163
+\pgf@picmaxy=\dimen164
+\pgf@pathminx=\dimen165
+\pgf@pathmaxx=\dimen166
+\pgf@pathminy=\dimen167
+\pgf@pathmaxy=\dimen168
+\pgf@xx=\dimen169
+\pgf@xy=\dimen170
+\pgf@yx=\dimen171
+\pgf@yy=\dimen172
+\pgf@zx=\dimen173
+\pgf@zy=\dimen174
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgf@path@lastx=\dimen175
+\pgf@path@lasty=\dimen176
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgf@shorten@end@additional=\dimen177
+\pgf@shorten@start@additional=\dimen178
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfpic=\box50
+\pgf@hbox=\box51
+\pgf@layerbox@main=\box52
+\pgf@picture@serial@count=\count199
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgflinewidth=\dimen179
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgf@pt@x=\dimen180
+\pgf@pt@y=\dimen181
+\pgf@pt@temp=\dimen182
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfarrowsep=\dimen183
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgf@max=\dimen184
+\pgf@sys@shading@range@num=\count266
+\pgf@shadingcount=\count267
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfexternal@startupbox=\box53
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclay
+er/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/
+pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfnodeparttextbox=\box54
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/
+pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibil
+ity/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/01 v3.1.7a (3.1.7a)
+\pgf@nodesepstart=\dimen185
+\pgf@nodesepend=\dimen186
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibil
+ity/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/01 v3.1.7a (3.1.7a)
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/
+pgffor.sty
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/
+pgfkeys.sty
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilitie
+s/pgfkeys.code.tex))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfma
+th.sty
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+math.code.tex))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilitie
+s/pgffor.code.tex
+Package: pgffor 2020/12/01 v3.1.7a (3.1.7a)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgf
+math.code.tex)
+\pgffor@iter=\dimen187
+\pgffor@skip=\dimen188
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontend
+layer/tikz/tikz.code.tex
+Package: tikz 2020/12/01 v3.1.7a (3.1.7a)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/librarie
+s/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgf@plot@mark@count=\count268
+\pgfplotmarksize=\dimen189
+)
+\tikz@lastx=\dimen190
+\tikz@lasty=\dimen191
+\tikz@lastxsaved=\dimen192
+\tikz@lastysaved=\dimen193
+\tikz@lastmovetox=\dimen194
+\tikz@lastmovetoy=\dimen195
+\tikzleveldistance=\dimen196
+\tikzsiblingdistance=\dimen197
+\tikz@figbox=\box55
+\tikz@figbox@bg=\box56
+\tikz@tempbox=\box57
+\tikz@tempbox@bg=\box58
+\tikztreelevel=\count269
+\tikznumberofchildren=\count270
+\tikznumberofcurrentchild=\count271
+\tikz@fig@count=\count272
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/
+pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfmatrixcurrentrow=\count273
+\pgfmatrixcurrentcolumn=\count274
+\pgf@matrix@numberofcolumns=\count275
+)
+\tikz@expandcount=\count276
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontend
+layer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyper
+ref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxc
+mds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.
+sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/pdf
+texcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/in
+fwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluat
+ex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.
+sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kv
+setkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys
+/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/pdf
+escape.sty
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolo
+r.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/le
+tltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhoo
+k.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvop
+tions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen198
+\Hy@linkcounter=\count277
+\Hy@pagecounter=\count278
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1en
+c.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intc
+alc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/ete
+xcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count279
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/hy
+perref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count280
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen199
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitse
+t.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/b
+igintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count281
+\Field@Width=\dimen256
+\Fld@charsize=\dimen257
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-
+ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count282
+\c@Item=\count283
+\c@Hfootnote=\count284
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hxete
+x.def
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc
+.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/str
+ingenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box59
+\c@Hy@AnnotLevel=\count285
+\HyField@AnnotCount=\count286
+\Fld@listcount=\count287
+\c@bookmark@seq@number=\count288
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/rerun
+filecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend
+-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/uni
+quecounter.sty
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip56
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 12.
+Package hyperref Info: Option `breaklinks' set `true' on input line 12.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/captio
+n.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/captio
+n3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen258
+\captionmargin@=\dimen259
+\captionwidth=\dimen260
+\caption@tempdima=\dimen261
+\caption@indent=\dimen262
+\caption@parindent=\dimen263
+\caption@hangindent=\dimen264
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count289
+\c@continuedfloat=\count290
+Package caption Info: hyperref package is loaded.
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcol
+orbox.sty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/verbatim
+.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks29
+\verbatim@line=\toks30
+\verbatim@in@stream=\read3
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/enviro
+n.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/tri
+mspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks31
+)
+\tcb@titlebox=\box60
+\tcb@upperbox=\box61
+\tcb@lowerbox=\box62
+\tcb@phantombox=\box63
+\c@tcbbreakpart=\count291
+\c@tcblayer=\count292
+\c@tcolorbox@number=\count293
+\tcb@temp=\box64
+\tcb@temp=\box65
+\tcb@temp=\box66
+\tcb@temp=\box67
+\tcb@out=\write4
+\tcb@record@out=\write5
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssy
+mb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfo
+nts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks32
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmat
+h.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip57
+For additional information on amsmath, use the `?' option.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstex
+t.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen
+.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen265
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy
+.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen266
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn
+.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count294
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count295
+\leftroot@=\count296
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count297
+\DOTSCASE@=\count298
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box68
+\strutbox@=\box69
+\big@size=\dimen267
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count299
+\c@MaxMatrixCols=\count300
+\dotsspace@=\muskip17
+\c@parentequation=\count301
+\dspbrk@lvl=\count302
+\tag@help=\toks34
+\row@=\count303
+\column@=\count304
+\maxfields@=\count305
+\andhelp@=\toks35
+\eqnshift@=\dimen268
+\alignsep@=\dimen269
+\tagshift@=\dimen270
+\tagwidth@=\dimen271
+\totwidth@=\dimen272
+\lineht@=\dimen273
+\@envbody=\toks36
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxete
+x.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/seqsplit/seqsp
+lit.sty
+Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins,
+ etc.) 
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.
+sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+)
+
+! LaTeX Error: File `biblatex.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.24 \bibliography
+                  {paper.bib}^^M 
+Here is how much of TeX's memory you used:
+ 22807 strings out of 479290
+ 426621 string characters out of 5875009
+ 687663 words of memory out of 5000000
+ 41988 multiletter control sequences out of 15000+600000
+ 403798 words of font info for 29 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 80i,0n,85p,416b,96s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.
