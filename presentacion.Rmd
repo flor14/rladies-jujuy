@@ -1,5 +1,5 @@
 ---
-title: "Produciendo mi próximo artículo científico con R"
+title: "Mi próximo artículo científico en R"
 subtitle: "Compendios de Investigación, Reproducibilidad e Interactividad en las publicaciones académicas"  
 author: 
   - "Dra. Florencia D'Andrea"
@@ -1149,6 +1149,3 @@ class: center, middle
 ## ¡Muchas gracias por su atención!
 
  Filminas disponibles [bit.ly/rladiesjujuy-1](https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1) ]
----
-
-
