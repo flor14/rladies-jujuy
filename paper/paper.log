@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.21)  21 DEC 2020 15:25
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.12.21)  21 DEC 2020 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,25 +762,645 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 )
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bibla
+tex.sty
+Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
 
-! LaTeX Error: File `biblatex.sty' not found.
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.
+sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count306
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.
+def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.st
+y
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count307
+\c@listtotal=\count308
+\c@listcount=\count309
+\c@liststart=\count310
+\c@liststop=\count311
+\c@citecount=\count312
+\c@citetotal=\count313
+\c@multicitecount=\count314
+\c@multicitetotal=\count315
+\c@instcount=\count316
+\c@maxnames=\count317
+\c@minnames=\count318
+\c@maxitems=\count319
+\c@minitems=\count320
+\c@citecounter=\count321
+\c@maxcitecounter=\count322
+\c@savedcitecounter=\count323
+\c@uniquelist=\count324
+\c@uniquename=\count325
+\c@refsection=\count326
+\c@refsegment=\count327
+\c@maxextratitle=\count328
+\c@maxextratitleyear=\count329
+\c@maxextraname=\count330
+\c@maxextradate=\count331
+\c@maxextraalpha=\count332
+\c@abbrvpenalty=\count333
+\c@highnamepenalty=\count334
+\c@lownamepenalty=\count335
+\c@maxparens=\count336
+\c@parenlevel=\count337
+\blx@tempcnta=\count338
+\blx@tempcntb=\count339
+\blx@tempcntc=\count340
+\blx@maxsection=\count341
+\blx@maxsegment@0=\count342
+\blx@notetype=\count343
+\blx@parenlevel@text=\count344
+\blx@parenlevel@foot=\count345
+\blx@sectionciteorder@0=\count346
+\blx@entrysetcounter=\count347
+\blx@biblioinstance=\count348
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read4
+\blx@bcfout=\write6
+\blx@langwohyphens=\language3
+\c@mincomprange=\count349
+\c@maxcomprange=\count350
+\c@mincompwidth=\count351
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.24 \bibliography
-                  {paper.bib}^^M 
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-d
+m.def
+File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count352
+\c@savedafterword=\count353
+\c@annotator=\count354
+\c@savedannotator=\count355
+\c@author=\count356
+\c@savedauthor=\count357
+\c@bookauthor=\count358
+\c@savedbookauthor=\count359
+\c@commentator=\count360
+\c@savedcommentator=\count361
+\c@editor=\count362
+\c@savededitor=\count363
+\c@editora=\count364
+\c@savededitora=\count365
+\c@editorb=\count366
+\c@savededitorb=\count367
+\c@editorc=\count368
+\c@savededitorc=\count369
+\c@foreword=\count370
+\c@savedforeword=\count371
+\c@holder=\count372
+\c@savedholder=\count373
+\c@introduction=\count374
+\c@savedintroduction=\count375
+\c@namea=\count376
+\c@savednamea=\count377
+\c@nameb=\count378
+\c@savednameb=\count379
+\c@namec=\count380
+\c@savednamec=\count381
+\c@translator=\count382
+\c@savedtranslator=\count383
+\c@shortauthor=\count384
+\c@savedshortauthor=\count385
+\c@shorteditor=\count386
+\c@savedshorteditor=\count387
+\c@labelname=\count388
+\c@savedlabelname=\count389
+\c@institution=\count390
+\c@savedinstitution=\count391
+\c@lista=\count392
+\c@savedlista=\count393
+\c@listb=\count394
+\c@savedlistb=\count395
+\c@listc=\count396
+\c@savedlistc=\count397
+\c@listd=\count398
+\c@savedlistd=\count399
+\c@liste=\count400
+\c@savedliste=\count401
+\c@listf=\count402
+\c@savedlistf=\count403
+\c@location=\count404
+\c@savedlocation=\count405
+\c@organization=\count406
+\c@savedorganization=\count407
+\c@origlocation=\count408
+\c@savedoriglocation=\count409
+\c@origpublisher=\count410
+\c@savedorigpublisher=\count411
+\c@publisher=\count412
+\c@savedpublisher=\count413
+\c@language=\count414
+\c@savedlanguage=\count415
+\c@origlanguage=\count416
+\c@savedoriglanguage=\count417
+\c@pageref=\count418
+\c@savedpageref=\count419
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-u
+nicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-c
+ompat.def
+File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3
+.sty
+Package: expl3 2020-12-07 L3 programming layer (loader) 
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3ba
+ckend-xetex.def
+File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
+\g__graphics_track_int=\count420
+\l__pdf_internal_box=\box70
+\g__pdf_backend_object_int=\count421
+\g__pdf_backend_annotation_int=\count422
+))
+Package biblatex Info: expl3
+(biblatex)             2020-12-07 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+Package biblatex Info: Trying to load expl3 case changing code...
+Package biblatex Info: ... file 'blx-case-expl3.def' found.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-c
+ase-expl3.def
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xpa
+rse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xpa
+rse/xparse-generic.tex))
+File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bibla
+tex.def
+File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+\c@textcitecount=\count423
+\c@textcitetotal=\count424
+\c@textcitemaxnames=\count425
+\c@biburlbigbreakpenalty=\count426
+\c@biburlbreakpenalty=\count427
+\c@biburlnumpenalty=\count428
+\c@biburlucpenalty=\count429
+\c@biburllcpenalty=\count430
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count431
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/n
+umeric.bbx
+File: numeric.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/s
+tandard.bbx
+File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count432
+\c@bbx:relatedtotal=\count433
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/cbx/n
+umeric.cbx
+File: numeric.cbx 2020/08/23 v3.15a biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bibla
+tex.cfg
+File: biblatex.cfg 
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geome
+try.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex
+.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count434
+\Gm@cntv=\count435
+\c@Gm@tempcnt=\count436
+\Gm@bindingoffset=\dimen274
+\Gm@wd@mp=\dimen275
+\Gm@odd@mp=\dimen276
+\Gm@even@mp=\dimen277
+\Gm@layoutwidth=\dimen278
+\Gm@layoutheight=\dimen279
+\Gm@layouthoffset=\dimen280
+\Gm@layoutvoffset=\dimen281
+\Gm@dimlist=\toks38
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancy
+hdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip82
+\f@nch@O@elh=\skip83
+\f@nch@O@erh=\skip84
+\f@nch@O@olh=\skip85
+\f@nch@O@orh=\skip86
+\f@nch@O@elf=\skip87
+\f@nch@O@erf=\skip88
+\f@nch@O@olf=\skip89
+\f@nch@O@orf=\skip90
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/xelatex/mathspec/mat
+hspec.sty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
+r XeLaTeX)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fonts
+pec.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fonts
+pec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count437
+\l__fontspec_language_int=\count438
+\l__fontspec_strnum_int=\count439
+\l__fontspec_tmp_int=\count440
+\l__fontspec_tmpa_int=\count441
+\l__fontspec_tmpb_int=\count442
+\l__fontspec_tmpc_int=\count443
+\l__fontspec_em_int=\count444
+\l__fontspec_emdef_int=\count445
+\l__fontspec_strong_int=\count446
+\l__fontspec_strongdef_int=\count447
+\l__fontspec_tmpa_dim=\dimen282
+\l__fontspec_tmpb_dim=\dimen283
+\l__fontspec_tmpc_dim=\dimen284
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.s
+ty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fonts
+pec.cfg)))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyva
+l.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkey
+val.tex
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvu
+tils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count448
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@eu@=\count449
+\c@eu@i=\count450
+\c@mkern=\count451
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/upquote/upquot
+e.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.
+sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/micr
+otype.sty
+Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
+\MT@toks=\toks41
+\MT@count=\count452
+LaTeX Info: Redefining \textls on input line 788.
+\MT@outer@kern=\dimen285
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count453
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/micr
+otype-xetex.def
+File: microtype-xetex.def 2020/12/07 v2.8 Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 254.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/micr
+otype.cfg
+File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
+))
+Package hyperref Info: Option `unicode' set `true' on input line 151.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/se-
+ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 151.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancy
+vrb.sty
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count454
+\FV@InFile=\read5
+\FV@TabBox=\box71
+\c@FancyVerbLine=\count455
+\FV@StepNumber=\count456
+\FV@OutFile=\write7
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/framed/framed.
+sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip91
+\fb@frw=\dimen286
+\fb@frh=\dimen287
+\FrameRule=\dimen288
+\FrameSep=\dimen289
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grffile/grffil
+e.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
+)
+\csllabelwidth=\skip92
+\cslhangindent=\skip93
+\@quotelevel=\count457
+\@quotereset=\count458
+(./paper.aux)
+\openout1 = `paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 261.
+LaTeX Font Info:    ... okay on input line 261.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 261.
+LaTeX Font Info:    ... okay on input line 261.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 261.
+LaTeX Font Info:    ... okay on input line 261.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 261.
+LaTeX Font Info:    ... okay on input line 261.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 261.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+61.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 261.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 261.
+LaTeX Font Info:    ... okay on input line 261.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 261.
+LaTeX Font Info:    ... okay on input line 261.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 261.
+LaTeX Font Info:    ... okay on input line 261.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 261.
+LaTeX Font Info:    ... okay on input line 261.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 261.
+LaTeX Font Info:    ... okay on input line 261.
+Package hyperref Info: Link coloring ON on input line 261.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namer
+ef.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/refco
+unt.sty
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestri
+ng/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count459
+)
+LaTeX Info: Redefining \ref on input line 261.
+LaTeX Info: Redefining \pageref on input line 261.
+LaTeX Info: Redefining \nameref on input line 261.
+(./paper.out) (./paper.out)
+\@outlinefile=\write8
+\openout8 = `paper.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/e
+nglish.lbx
+File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `paper.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'paper.bbl' not found.
+No file paper.bbl.
+Package biblatex Info: Reference section=0 on input line 261.
+Package biblatex Info: Reference segment=0 on input line 261.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includemp 
+* h-part:(L,W,R)=(28.45274pt, 526.376pt, 42.67912pt)
+* v-part:(T,H,B)=(99.58464pt, 660.10394pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=387.33861pt
+* \textheight=660.10394pt
+* \oddsidemargin=95.22015pt
+* \evensidemargin=95.22015pt
+* \topmargin=-60.28131pt
+* \headheight=62.59596pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=128.0374pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemargintrue
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 261.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-L
+atinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-c
+mr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 262
+.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.
+fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-m
+sa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 262
+.
+
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.
+fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(c:/Users/FLORENCIA/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-m
+sb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+
+Package hyperref Warning: Suppressing link with empty target on input line 288.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 288.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 288.
+
+
+File: C:/Users/FLORENCIA/AppData/Local/renv/cache/v5/R-4.0/x86_64-w64-mingw32/r
+ticles/0.17/12e9c0d85a390d72ec84e703ab129a39/rticles/rmarkdown/templates/joss/r
+esources/JOSS-logo.png Graphic file (type bmp)
+<C:/Users/FLORENCIA/AppData/Local/renv/cache/v5/R-4.0/x86_64-w64-mingw32/rticle
+s/0.17/12e9c0d85a390d72ec84e703ab129a39/rticles/rmarkdown/templates/joss/resour
+ces/JOSS-logo.png>
+
+Package Fancyhdr Warning: \headheight is too small (62.59596pt): 
+Make it at least 63.55022pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 353.
+[1
+
+]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 361.
+File: paper_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/unnamed-chunk-1-1.pdf>
+File: C:/Users/FLORENCIA/AppData/Local/renv/cache/v5/R-4.0/x86_64-w64-mingw32/r
+ticles/0.17/12e9c0d85a390d72ec84e703ab129a39/rticles/rmarkdown/templates/joss/r
+esources/JOSS-logo.png Graphic file (type bmp)
+<C:/Users/FLORENCIA/AppData/Local/renv/cache/v5/R-4.0/x86_64-w64-mingw32/rticle
+s/0.17/12e9c0d85a390d72ec84e703ab129a39/rticles/rmarkdown/templates/joss/resour
+ces/JOSS-logo.png>
+[2]
+File: C:/Users/FLORENCIA/AppData/Local/renv/cache/v5/R-4.0/x86_64-w64-mingw32/r
+ticles/0.17/12e9c0d85a390d72ec84e703ab129a39/rticles/rmarkdown/templates/joss/r
+esources/JOSS-logo.png Graphic file (type bmp)
+<C:/Users/FLORENCIA/AppData/Local/renv/cache/v5/R-4.0/x86_64-w64-mingw32/rticle
+s/0.17/12e9c0d85a390d72ec84e703ab129a39/rticles/rmarkdown/templates/joss/resour
+ces/JOSS-logo.png>
+[3] (./paper.aux)
+Package rerunfilecheck Info: File `paper.out' has not changed.
+(rerunfilecheck)             Checksum: CC60741060076006C4B48C5CFE745D12.
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                paper
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'paper.run.xml'.
+\openout1 = `paper.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 22807 strings out of 479290
- 426621 string characters out of 5875009
- 687663 words of memory out of 5000000
- 41988 multiletter control sequences out of 15000+600000
- 403798 words of font info for 29 fonts, out of 8000000 for 9000
+ 35206 strings out of 479290
+ 709984 string characters out of 5875009
+ 1489909 words of memory out of 5000000
+ 54139 multiletter control sequences out of 15000+600000
+ 410310 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 80i,0n,85p,416b,96s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,12n,85p,738b,800s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-No pages of output.
+Output written on paper.pdf (3 pages).

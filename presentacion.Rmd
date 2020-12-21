@@ -564,8 +564,8 @@ Paquetes [`RMarkdown`](https://bookdown.org/yihui/rmarkdown/) ✍️  + [`rticle
 class: inverse, middle, center
 
 
-## Demo
-### RMarkdown + rticles
+### Demo 4
+### `RMarkdown` + `rticles`
 
 
 
@@ -766,23 +766,21 @@ knitr::include_graphics("imagenes/small_rc.png")
 ## Paquete `rrtools` 
 #### Compendios de investigación en R
 
-```{r rclogo, echo = FALSE, out.width=100, fig.align ='right'}
+```{r rclogo, echo = FALSE, out.width=100, fig.align ='center'}
 knitr::include_graphics("imagenes/rc-logo.png")
 ```
 
-[Paquete (no esta en CRAN)](https://github.com/benmarwick/rrtools)
-
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-`rrtools` proporciona instrucciones, plantillas y funciones para hacer un compendio básico adecuado para escribir **investigaciones reproducibles con R**.]
+[`rrtools`](https://github.com/benmarwick/rrtools) proporciona instrucciones, plantillas y funciones para hacer un compendio básico adecuado para escribir **investigaciones reproducibles con R**.]
 
 .footnote[[Marwick *et al.* (2018)](https://doi.org/10.1080/00031305.2017.1375986)]
 
 ---
 
-## Paquete 
+## Paquete 📦
 
-La **unidad fundamental de código** que se puede compartir en R, es el paquete.
+La **unidad fundamental de código** que se puede compartir en R.
 
 El paquete agrupa:
 * código
@@ -794,12 +792,6 @@ y es fácil de compartir con otros.
 
 .footnote[[Wickham, H. (2015)](https://r-pkgs.org/intro.html)]
 
----
-class: center, middle
-```{r vertical, echo = FALSE}
-knitr::include_url("https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13428-020-01436-x/MediaObjects/13428_2020_1436_Fig2_HTML.png?as=webp")
-```
-.footnote[[Vourre *et al.*(2020)](https://link.springer.com/article/10.3758/s13428-020-01436-x)]
 ---
 
 ## Armando el compendio
@@ -828,33 +820,36 @@ knitr::include_graphics("imagenes/usethis.png")
 
 ```{r usethis2, eval=FALSE, include=TRUE}
 library(usethis)
+
 # Hay una función por cada tipo de licencia
+
 usethis::use_mit_license("Florencia D Andrea")
 ```
 ]
 .panel[.panel-name[README]
 
 ```{r readme, eval=FALSE, include=TRUE}
+
 # Agrega el archivo README que se puede editar desde R
+
 rrtools::use_readme_rmd()
 ```
 
-➕ Agregar un DOI
-
-➕ Agregar cómo se cita
 ]
 .panel[.panel-name[Estructura]
 
 ```{r analysis2, eval=FALSE, include=TRUE}
 
 # Estructura de carpetas 
+
 rrtools::use_analysis()
 
-# Agregar los paquetes a la DESCRIPACION
+# Agregar los paquetes al archivo DESCRIPTION
+
 rrtools::add_dependencies_to_description()
 ```
 
-Nota: Seguir el tutorial 
+
 
 ]
 .panel[.panel-name[Manuscrito]
@@ -941,11 +936,11 @@ EFSA. (2018, June 26). Shiny R tool for the automation of systematic reviews (Ve
 
 * [In which journals should I publish my software?](https://www.software.ac.uk/which-journals-should-i-publish-my-software) - Neil Chue Hong. Software Sustainability Institute blog.
 
+[Imagen: The Turing Way Community, & Scriberia. (2020)]( http://doi.org/10.5281/zenodo.3695300)
+
 ```{r tools, echo = FALSE, out.height=500, fig.align='right'}
 knitr::include_graphics("imagenes/researchtools.jpg")
 ```
-
-.footnote[[Imagen: The Turing Way Community, & Scriberia. (2020)]( http://doi.org/10.5281/zenodo.3695300)]]
 
 ---
 
@@ -982,17 +977,22 @@ knitr::include_graphics("imagenes/plotly.png")
 
 class: inverse, middle, center
 
-### Demo
+### Demo 5
 ### Artículo reproducible / Figuras Interactivas
 
 
 ---
-class: inverse, middle, center
+
 
 ### Comunidades 
 
+```{r comunidad, echo = FALSE}
 
+knitr::include_graphics("imagenes/comunidad.jpg")
 
+```
+
+.footnote[[Imagen: The Turing Way Community, & Scriberia. (2020)]( http://doi.org/10.5281/zenodo.3695300)]]
 ---
 # ROpenSci
 
@@ -1118,8 +1118,6 @@ background-size: cover
 
 * Stodden, V. (2014). [Online; accessed 27. May 2020]. URL: https://www.edge.org/response-detail/25340.
 
-* Vuorre, M., Crump, M.J.C. [Sharing and organizing research products as R packages.](https://link.springer.com/article/10.3758/s13428-020-01436-x) Behav Res (2020). https://doi.org/10.3758/s13428-020-01436-x
-
 * Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
 
 * [Webpage Principios FAIR](https://www.go-fair.org/fair-principles/)
@@ -1187,7 +1185,18 @@ background-image: url(imagenes/jujuy-colores.jpg)
 background-size: cover
 class: center, middle
 
+```{r rladies, echo = FALSE, out.width=100, fig.align ='center'}
+knitr::include_graphics("imagenes/rladies.png")
+```
+
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 ## ¡Muchas gracias por su atención!
 
- Filminas disponibles [bit.ly/rladiesjujuy-1](https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1) ]
+ Filminas disponibles [bit.ly/rladiesjujuy-primerevento](https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=licencia#1) ]
+
+---
+
+```{r info}
+sessionInfo()
+```
+
