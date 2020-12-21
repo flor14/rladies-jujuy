@@ -543,20 +543,23 @@ knitr::include_graphics("imagenes/style.jpg")
 
 ]
 
+.footnote[[Imagen: The Turing Way Community, & Scriberia. (2020)]( http://doi.org/10.5281/zenodo.3695300)]]
 ---
 
 ### (Algunas) Herramientas
 
 #### Programación literaria 
 
-```{r rmkdm, echo=FALSE, out.width=500}
+Paquetes [`RMarkdown`](https://bookdown.org/yihui/rmarkdown/) ✍️  + [`rticles`](https://github.com/rstudio/rticles)
+
+```{r rmkdm, echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("imagenes/rmarkdown.png")
 ```
 
 
 
 
-Paquetes [`RMarkdown`](https://bookdown.org/yihui/rmarkdown/) ✍️  + [`rticles`](https://github.com/rstudio/rticles)
+
 
 
 ---
