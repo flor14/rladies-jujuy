@@ -26,3 +26,7 @@ Te esperamos en lunes 21 de diciembre de 2020 a las 17hs para charlar y comparti
 ### Referencias
 
 The Turing Way Community, & Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.3695300
+
+### Filminas disponibles online en los siguientes links:
+* [bit.ly/rladiesjujuy-primerevento](bit.ly/rladiesjujuy-primerevento) 
+* [https://flor14.github.io/rladies-jujuy/presentacion.html](https://flor14.github.io/rladies-jujuy/presentacion.html)
